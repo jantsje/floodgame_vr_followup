@@ -1,0 +1,55 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block title %}
+{% include 'snippets/Titelblok.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'snippets/Titel.html' %}
+{% include 'snippets/Voortgangsbalk.html' %}
+{% include 'snippets/Verdienstenbar.html' %}
+
+    <div class="row">
+
+        {% include 'snippets/Risicoblok.html' %}
+        {% include 'snippets/Tijdblok.html' %}
+        {% include 'snippets/Schadeblok.html' %}
+        {% include 'snippets/Verzekeringsblok.html' %}
+
+    </div>
+
+{% if scenario_nr == 0 %}
+<div class="alert alert-warning" role="alert">
+     <h4><strong>{% trans "Caution!" %}</strong>
+         {% blocktrans trimmed %}
+         You can use this test scenario to get familiar with the possibilities.
+         The results will not be used to calculate your final payoff. Start by clicking the button below.
+         {% endblocktrans %}</h4>
+     </div>
+
+{% elif scenario_nr == 1 %}
+<div class="alert alert-warning" role="alert">
+     <h4><strong>{% trans "Caution!" %}</strong>
+         {% blocktrans trimmed %}
+         Please take your time to read the information on the following pages very carefully. It is important for your final payoff.
+         The final scenario starts by clicking the button below.
+        {% endblocktrans %}
+     </h4>
+     </div>
+
+ {% else %}
+{%endif%}
+
+{% if scenario_nr == 0 %}
+    <button class="btn btn-primary btn-lg">{% trans "Start the test scenario" %} </button>
+   {% else %}
+    <button class="btn btn-primary btn-lg">{% trans "Start the final scenario" %} </button>
+{% endif %}
+{% include 'snippets/InstructionsCounter.html' %}
+
+
+
+{% endblock %}
+

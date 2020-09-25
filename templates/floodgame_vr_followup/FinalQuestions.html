@@ -1,0 +1,214 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+{% block title %}
+Vragenlijst
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+              var count = 0;
+              var button = document.getElementById("more_info");
+              var clicked_button = document.getElementById("id_clicked_button");
+
+              button.onclick = function(){
+                count++;
+                clicked_button.value = count;
+                console.log(clicked_button)
+
+              }
+
+
+
+            function enableAll(){
+				var items=document.getElementsByName('measures');
+				for(var i=0; i<items.length; i++){
+					if(items[i].type=='checkbox')
+						items[i].disabled=false;
+
+				}
+			}
+
+			function UnSelectAll(){
+				var items=document.getElementsByName('measures');
+				for(var i=0; i<items.length; i++){
+					if(items[i].type=='checkbox')
+						items[i].checked=false;
+						items[i].disabled=true;
+
+				}
+			}
+			function handleCheckbox(checkboxElem) {
+          if (checkboxElem.checked) {
+            UnSelectAll();
+          } else {
+            enableAll();
+          }
+        }
+
+                function countCheckboxes(){
+      var inputElems = document.getElementsByName("measures");
+      var inputNone = document.getElementById("none");
+      var count = 0;
+      for (var i=0; i<inputElems.length; i++) {
+        if (inputElems[i].type === "checkbox" && inputElems[i].checked === true) {
+          count++;
+        }
+      }
+      if(count < 1 && inputNone.checked === false){
+        inputNone.required=true;
+     }
+      else{
+            for(var i=0; i<inputElems.length; i++){
+                inputElems[i].required=false;
+                inputNone.required=false;
+                }
+
+      }
+
+      console.log(inputNone.required);
+
+        }
+
+		</script>{% endblock %}
+
+{% block content %}
+
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+    {% if player.round_number == 7 %}
+    <div class="alert alert-success" role="alert">
+    {% blocktrans trimmed %}
+         <p> Thank you for your participation in this research. </p><p>
+           </p><p> In case you are selected for the large reward, we will get in touch with you.
+           </p><p> In case you have questions about the research, feel free to send an email to:
+           <a href="mailto:info.ivm@vu.nl?subject=Question about IVM survey">info.ivm@vu.nl</a>
+         </p>
+    {% endblocktrans %}
+    </div>
+    {% endif %}
+
+
+
+<div class="card"><div class="card-body"><p>
+
+    {% if player.round_number == 4 %}
+
+            <div class="card bg-light"><div class="card-body"><p>
+            <p> {% trans "This was the end of the scenario. We will now ask some questions about the scenario." %} </p>
+        </div></div>
+
+        {% for field in form %}
+        {% formfield field %}
+        {% endfor %}
+
+
+            <div class="card bg-light"><div class="card-body"><p>
+                <p> <b>{% trans "Caution!" %}</b> {% trans "The questions on the next pages concern your current home (not the home in the scenario)." %} </p>
+            </div></div><br>
+
+
+    {% else %}
+
+        {% for field in form %}
+        {% if field.name == "measures" %}
+
+            {{field.label}} <p>
+                   <div class="form-group has-error">
+                <input type="checkbox" name="measures" value="cellar" id="cellar">
+                <label for="cellar">
+                    {% trans "No valuables in basement" %}</label><br>
+                <input type="checkbox" name="measures" value="furniture" id="furniture">
+                <label for="furniture">
+                    {% trans "Water-resistant furniture on ground floor" %}</label><br>
+                <input type="checkbox" name="measures" value="floor_elevated" id="elevated">
+                <label for="elevated">
+                    {% trans "Elevated ground floor" %}</label><br>
+                <input type="checkbox" name="measures" value="foundation" id="foundation">
+                <label for="foundation">
+                   {% trans "Strengthened foundation" %}</label><br>
+                <input type="checkbox" name="measures" value="walls" id="walls">
+                <label for="walls">
+                    {% trans "Walls made of water-resistant materials" %}</label><br>
+                <input type="checkbox" name="measures" value="floor_water_resistant" id="floor_water_resistant" >
+                <label for="floor_water_resistant">
+                    {% trans "Floor of ground floor made of water-resistant materials (e.g. tile floor)" %}</label><br>
+                <input type="checkbox" name="measures" value="sockets_raised" id="sockets_raised">
+                <label for="sockets_raised">
+                    {% trans "Raised power sockets on ground floor" %}</label><br>
+                <input type="checkbox" name="measures" value="valves" id="valves">
+                <label for="valves">
+                     {% trans "Anti-backflow valves" %}</label><br>
+                <input type="checkbox" name="measures" value="sandbags" id="sandbags">
+                <label for="sandbags">
+                     {% trans "(Empty) sand bags or flood barriers at home" %}</label><br>
+                <input type="checkbox" name="measures" value="appliances_elevated" id="appliances_elevated">
+                <label for="appliances_elevated">
+                     {% trans "Elevated electrical appliances" %}</label><br>
+                <input type="checkbox" name="measures" value="boiler" id="boiler">
+                <label for="boiler">
+                     {% trans "Elevated boiler" %}</label><br>
+                <input type="checkbox" name="measures" value="meter_elevated" id="meter_elevated">
+                <label for="meter_elevated">
+                    {% trans "Elevated electricity meter" %}</label><br>
+                <input type="checkbox" name="measures" value="insured" id="insured">
+                <label for="insured">
+                    {% trans "Bought separate flood insurance" %}</label><br>
+                <input type="checkbox" name="measures" value="other" id="other"
+                onclick="document.getElementById('other_text').value=''"
+                onchange="document.getElementById('other_text').required = this.checked">
+                <label for="other">
+                    {% trans "Other:" %}</label>
+                <input type="text" name="other_text" size="40" id="other_text" autocomplete="off"
+                   onchange="document.getElementById('other').checked = this.value.length > 0;"><br>
+                <input type="checkbox" id="none" required
+                       onchange="handleCheckbox(this);
+                       document.getElementById('other_text').value='';
+                       document.getElementById('other_text_edu').required = false;"
+                       onclick="document.getElementById('other_text').disabled = this.checked"/>
+                        <label for="none">{% trans "None" %}</label><br></p>
+                        <div class="help-block with-errors" id="checkboxError"></div>
+                    </div>
+
+
+        {% elif field.name == "explain_strategy" %}
+                <label>{{field.label}}</label><br>
+                <textarea class="form-control" name="explain_strategy" required autocomplete="off"></textarea>
+                <br>
+
+
+        {% elif field.name == "difficult_text" %}
+            <label>{{field.label}}</label><br>
+            <textarea class="form-control" name="difficult_text" required autocomplete="off"></textarea>
+            <br><br><br>
+
+        {% elif field.name == "feedback" %}
+            <label>{{field.label}}</label><br>
+            <textarea class="form-control" name="feedback" autocomplete="off"></textarea>
+
+        {% elif field.name == "clicked_button" %}
+            <input type="hidden" name="clicked_button" value="0" id="id_clicked_button"/>
+            {{form.clicked_button.errors}}
+
+        {% elif field.name == "other_text" %}
+
+
+    {% else %}
+        {% formfield field %}
+
+    {% endif %}
+    {% endfor %}
+{% endif %}
+
+{#    {{form.errors}}#}
+
+</div></div></div>
+
+{% if player.round_number == 5 %}
+<button name="next_button"  class="btn btn-primary btn-right btn-lg" onclick='countCheckboxes()' > {% trans "Next" %} </button>
+{% else %}
+<button name="next_button"  class="btn btn-primary btn-right btn-lg"  > {% trans "Next" %} </button>
+{% endif %}
+
+{% endblock %}

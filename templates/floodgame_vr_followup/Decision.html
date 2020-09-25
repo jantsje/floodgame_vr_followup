@@ -1,0 +1,93 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+
+{% block content %}
+
+{% include 'snippets/Titel.html' %}
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+{% include 'snippets/Verdienstenbar.html' %}
+
+ <div class="row">
+
+  {% include 'snippets/Risicoblok.html'  %}
+  {% include 'snippets/Tijdblok.html' %}
+  {% include 'snippets/Schadeblok.html' %}
+  {% include 'snippets/Verzekeringsblok.html' %}
+
+ </div>
+
+<div class="alert alert-secondary" role="alert">
+<h4 class="alert-heading">
+     {% trans "How much do you want to invest to reduce flood damage?" %}
+</h4>
+</div>
+
+
+<div class="col-12">
+    <div class="row">
+    <div class="card-group" id="dd">
+        <div class="card-group" style="text-align:center;width: 12rem;">
+            <div class="card w-100">
+                 <button name="mitigate" value=0 class="btn btn-primary btn-lg btn-block">
+                     <i class="material-icons white">build</i>&nbsp;{{mitigation_cost0}} </button>
+                <p class="card-text" style="margin:0px"> {% trans 'do not invest: <br> accept'%} {{Constants.damage}} </p> {%  trans "damage" %}
+            </div>
+        </div>
+        <div class="card-group" style="text-align:center;width: 48rem;">
+            <div class="card-group  w-100">
+                <div class="card" style="text-align:center;">
+                        <button name="mitigate" value=1 class="btn btn-primary btn-lg btn-block">
+                            <i class="material-icons white">build</i>
+                            &nbsp;{{mitigation_cost1}} </button>
+                <p class="card-text" style="margin:0px"> {% trans "reduce damage to"%}<br>  {{reduced_damage1}} <br></p>
+                    </div>
+                        <div class="card" style="text-align:center;">
+                        <button name="mitigate" value=2 class="btn btn-primary btn-lg btn-block">
+                            <i class="material-icons white">build</i>
+                            &nbsp;{{mitigation_cost2}} </button>
+                <p class="card-text" style="margin:0px"> {% trans "reduce damage to"%}<br>  {{reduced_damage2}} <br></p>
+                </div>
+                        <div class="card" style="text-align:center;">
+                        <button name="mitigate" value=3 class="btn btn-primary btn-lg btn-block">
+                            <i class="material-icons white">build</i>
+                            &nbsp;{{mitigation_cost3}} </button>
+                <p class="card-text" style="margin:0px"> {% trans "reduce damage to"%}<br>  {{reduced_damage3}} <br></p>
+                </div>
+                        <div class="card" style="text-align:center;">
+                        <button name="mitigate" value=4 class="btn btn-primary btn-lg btn-block">
+                            <i class="material-icons white">build</i>
+                            &nbsp;{{mitigation_cost4}} </button>
+                <p class="card-text" style="margin:0px"> {% trans "reduce damage to"%}<br>  {{reduced_damage4}} <br></p>
+                    </div>
+                </div>
+      </div>
+    </div>
+    </div>
+</div>
+
+
+
+</div></div>
+
+
+
+
+{% include 'snippets/InstructionsCounter.html' %}
+
+{% endblock %}
+
+
+{% block app_scripts %}
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+   rel="stylesheet">
+
+
+<script type ="text/css" data-require="bootstrap@*" data-semver="3.3.2" src="{% static 'floodgame_vr_followup/bootstrap/bootstrap/js/bootstrap.min.js'%}"></script>
+
+
+{% endblock %}

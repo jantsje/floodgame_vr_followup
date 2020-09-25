@@ -1,0 +1,29 @@
+<style type="text/css">
+.alert-small {
+    width:35%;
+    height:70%;
+}
+</style>
+{% load i18n %}
+
+
+<ul class="nav justify-content-between">
+<li>
+<div class="alert alert-light" role="alert"> {% trans "You own: your house and you have" %}
+    <span style="color:#337ab7;"><strong>{{cumulative_payoff}}</strong></span>  {% trans "on your savings account" %}
+
+</div>
+
+
+<!--  this is useful if you want to add something to the right of the navbar : -->
+<!-- <li>-->
+<!--    {% if page_title == 'Flood protection investment decision' %}-->
+<!-- <div class="alert alert-info alert-dismissible" >-->
+<!--  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+<!--        (the income of {{income}} has been added)-->
+<!--    </div>-->
+<!--      {% else %}-->
+<!--    {% endif %}-->
+<!--</li>-->
+
+</ul>

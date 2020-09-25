@@ -1,0 +1,11 @@
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+<div class="col-3">
+    <h5 class="card" style="text-align:center;">
+        <div class="card-body">
+        <i class="material-icons black" style="font-size:4em;color:#007bff">home</i>
+            <h6 class="card-text">
+          {% trans "Damage" %} <span style="color:#337ab7;">{{reduced_damage_this_scenario}}</span><br>
+          {% trans "in case of flooding" %}
+      </h6></div></h5></div>

@@ -1,0 +1,12 @@
+
+{% load i18n %}
+
+<br><br><br>
+<ul class="nav justify-content-between">
+
+<li> <h2> {{ page_title }}</h2> </li>
+<li class="navbar-brand">
+    <button type="button" name="opened" class="btn btn-outline-primary" id="instructionsButton" data-toggle="modal" data-target="#myModal">{% trans "open the instructions" %}</button>
+    <button type="button" disabled class="btn btn-outline-primary" > {{scenario_type}}</button>
+</li>
+</ul>

@@ -1,0 +1,12 @@
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+<div class="col-3">
+    <h5 class="card" style="text-align:center;">
+        <div class="card-body">
+            <img width="100%" src="{% static 'floodgame_vr_followup/1percent.png' %}"/>
+            <h6 class="card-text"><br>{% trans "Flood probability is" %} <span style="color:#337ab7;"> <br>{{risk}} {% trans "percent" %} </span>
+                {% trans "per year" %}</h6>
+        </div>
+    </h5>
+</div>

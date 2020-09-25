@@ -1,0 +1,89 @@
+{% extends "floodgame_vr_followup/ExtendedPage.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block app_styles %}
+<link href="{% static 'otreeutils/understanding.css' %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block app_scripts %}
+<script src="{% static 'otreeutils/understanding.js' %}"></script>
+{% endblock %}
+
+
+{% block title %}
+{% include 'snippets/Titelblok.html' %}
+{% endblock %}
+
+{% block content %}
+<br><br><br>
+<ul class="nav justify-content-between">
+
+<li> <h2> {{ page_title }}</h2> </li>
+<li class="navbar-brand">
+    <button type="button" name="opened" class="btn btn-outline-primary" id="instructionsButton" data-toggle="modal" data-target="#myModal">open de instructies</button>
+    <button type="button" disabled class="btn btn-outline-primary" >oefenscenario</button>
+</li>
+</ul>
+
+    {% include 'snippets/Voortgangsbalk.html' %}
+{% include 'snippets/InstructionsCounter.html' %}
+
+
+<br>
+    <div class="alert alert-dark"><p>
+
+
+Om er zeker van te zijn dat u de floodgame_onlineregels goed begrijpt, zullen we nu een aantal vragen stellen. Zodra u
+        deze vragen correct heeft beantwoord, kunt u starten met het definitieve scenario.
+    </p>
+        <p><b>
+De instructies zijn altijd beschikbaar tijdens het scenario
+        (rechtsboven onder de knop 'open de instructies').
+        </b></p>
+
+    </div>
+<div class="card"><div class="card-body">
+<ul class="questions">
+    {{ questions_form.as_ul }}
+</ul>
+
+<div style="display: none">
+    {% next_button %}
+</div>
+
+<div class="fake-next">
+    <input class="btn btn-primary btn-lg" type="button" value="Volgende"
+           onclick="checkUnderstandingQuestionsForm()">
+</div>
+</div></div></div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog modal-lg" style="width:1000px;">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+          <h5 class="modal-title">{% trans "Instructions" %} </h5>
+              <button type="button" class="close" id=instructionsButton data-dismiss="modal">&times;</button>
+</div>
+      <div class="modal-body">
+          <div class="card-deck">
+
+{% include 'snippets/Instr.html' %}
+
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+$(function() {
+    setupUnderstandingQuestionsForm({{ n_questions }}, "{{ hint_empty }}", "{{ form_field_n_wrong_attempts }}", {{ set_correct_answers }});
+});
+</script>
+
+{% endblock %}

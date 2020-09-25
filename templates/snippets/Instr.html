@@ -1,0 +1,66 @@
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+<div class="row">
+ <div class="card">
+    <br>
+      <div class="row">
+        <div class="col-md-6 px-3">
+            <div class="card-body px-3">
+                <p class="card-text">
+                    {% blocktrans trimmed %}
+                    Imagine that you own a home you will be living in for <b> the next 25 years. </b>
+                    Furthermore, you own a savings account with a balance of
+                    {% endblocktrans %}
+                        {{Constants.initial_endowment}}
+                    {% blocktrans trimmed %}
+                        (comparable to Euros).
+                    {% endblocktrans %}
+                </p>
+                <p class="card-text">
+                    {% blocktrans trimmed %}
+                    The probability of a flood is <strong>{{risk}} percent per year. </strong>
+                    The probability that your house is flooded at least once in the coming 25 years is approximately
+                    <strong>22 percent</strong>.
+                    {% endblocktrans %}
+                </p>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <div class="card-body">
+            <img class="card-img-top" src="{% static 'floodgame_vr_followup/1percent.png' %}"/>
+                <small class="text-muted">{% trans "The computer selects each year at random which house gets flooded." %} </small>
+                <small class="text-muted">{% trans "The probability that the blue house is flooded, is 1 percent." %} </small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</div>
+<div class="row">
+ <div class="card">
+    <br>
+      <div class="row">
+           <div class="col-md-4 text-center">
+            <div class="card-body">
+                <img class="card-img-top" src="{% static 'floodgame_vr_followup/mitigate_'|add:language_code|add:'.png' %}"/>
+            </div>
+          </div>
+       <div class="col-md-7 px-3">
+            <div class="card-body px-3">
+                <p class="card-text">
+                    {% blocktrans trimmed %}
+                    You can invest in <b> damage reducing measures</b> to protect your home from flooding. These
+                        measures will not change the probability of a flood, but they can <b> reduce damage </b> in case of a flood.
+                    {% endblocktrans %} </p>
+                <p class="card-text">
+                    {% trans "An example of such a damage reducing measure is moving your electric appliances to a higher floor." %}
+                </p>
+                <p class="card-text">
+                {% trans "You can decide for yourself how much you want to invest. The more you invest, the lower the expected damage." %}
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+<div></div></div>

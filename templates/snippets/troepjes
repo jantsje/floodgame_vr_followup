@@ -1,0 +1,11 @@
+<div class="row">
+<br>
+<div class="col-md-8">
+{% for field in form %}
+{{ field}}
+{% endfor %}
+</div>
+        <div class="col-md-4">
+<button class="btn btn-primary btn-right btn-lg">{% trans "Next" %}</button>
+        </div>
+</div>

@@ -1,0 +1,38 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block title %}
+    {% trans "Information about the scenario" %}
+{% endblock %}
+
+{% block content %}
+
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+{% include 'snippets/Instr.html' %}
+<br>
+
+
+    <div class="alert alert-secondary" role="alert">
+<p class="lead"><b>
+    {% trans "We will start with a test scenario to get familiar with the game." %}</b>
+</p>
+</div>
+
+
+<button class="btn btn-primary btn-right btn-lg">{% trans "Next" %}
+
+</button>
+
+{% include 'snippets/InstructionsCounter.html' %}
+
+
+
+
+
+
+{% endblock %}
+
+

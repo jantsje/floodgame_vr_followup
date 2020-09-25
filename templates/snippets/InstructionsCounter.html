@@ -1,0 +1,21 @@
+{% load staticfiles otree_tags %}
+
+<input type="hidden" name="opened" value="0" id="id_opened"/>
+{{form.opened.errors}}
+
+
+<script type="text/javascript">
+  var count = 0;
+  var button = document.getElementById("instructionsButton");
+  var opened = document.getElementById("id_opened");
+
+  button.onclick = function(){
+    count++;
+    opened.value = count;
+    console.log(opened)
+
+  }
+</script>
+
+
+

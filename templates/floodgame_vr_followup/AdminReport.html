@@ -1,0 +1,83 @@
+<table class="table table-striped">
+
+        <tr>
+            <th>  </th>
+            <th>Baseline</th>
+            <th>Baseline_1</th>
+            <th>Norm_focusing</th>
+            <th>Norm_focusing_1</th>
+            <th>Not yet</th>
+            <th>Totaal</th>
+
+
+        </tr>
+    <tr><td>buiten doelgroep</td>
+
+
+            <td> </td>
+            <td> </td>
+            <td> </td>
+            <td> </td>
+                    <td> </td>
+                    <td>{{target_group.0}} </td>
+
+    </tr>
+    <tr><td>drop out</td>
+            <td> {{dropouts.0}} </td>
+            <td> {{dropouts.1}} </td>
+            <td> {{dropouts.2}} </td>
+            <td> {{dropouts.3}} </td>
+            <td> {{dropouts.4}} </td>
+            <td> {{dropouts_totaal}} </td>
+
+        </tr>
+
+    <tr><td>completes</td>
+            <td> {{completes.0}} </td>
+            <td> {{completes.1}} </td>
+            <td> {{completes.2}} </td>
+            <td> {{completes.3}} </td>
+            <td> </td>
+            <td> {{completes_totaal}} </td>
+
+        </tr>
+
+        <tr><td>quota</td>
+            <td> {{quota.0}} </td>
+            <td> {{quota.1}} </td>
+            <td> {{quota.2}} </td>
+            <td> {{quota.3}} </td>
+            <td> </td>
+            <td> {{quota_totaal}} </td>
+
+        </tr>
+
+
+</table>
+
+
+<table class="table table-striped">
+
+        <tr>
+            <th>Pp code</th>
+            <th>Treatment</th>
+            <th>Mitigate</th>
+            <th>Belief</th>
+            <th>TimeSpent</th>
+
+        </tr>
+    {% for item in vars_admin_list %}
+        <tr>
+            <td style="font-family: 'Courier New'"> {{item.0}} </td>
+            <td> {{item.1}} </td>
+            <td> {{item.2}} </td>
+            <td> {{item.3}} </td>
+            <td> {{item.4}} </td>
+
+        </tr>
+
+    {% endfor %}
+
+</table>
+
+

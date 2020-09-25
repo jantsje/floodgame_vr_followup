@@ -1,0 +1,28 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block title %} <br>
+    {% trans "Thank you for your participation" %}
+{% endblock %}
+
+
+{% block content %}
+
+<div class="progress">
+  <div class="progress-bar" role="progressbar"  aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+  <span class="sr-only">100 % </span>
+  </div>
+</div>
+
+<img width="100%" src="{% static 'floodgame_vr_followup/banner_nl.jpg' %}"/>
+
+    <div class="alert alert-success" role="alert">
+
+{% trans "This was the final page." %}
+    </div>
+
+<br> <br>
+
+
+{% endblock %}

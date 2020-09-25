@@ -1,0 +1,26 @@
+.questions li {font-size: 1.2em}
+
+.hint {
+    font-size: 1em;
+    color: darkred;
+}
+
+.fake-next {
+    text-align: left;
+}
+
+label.ok {
+    color: darkgreen;
+}
+
+label.error {
+    color: darkred;
+}
+
+input.ok {
+    border: 1px solid darkgreen;
+}
+
+input.error {
+    border: 1px solid darkred;
+}

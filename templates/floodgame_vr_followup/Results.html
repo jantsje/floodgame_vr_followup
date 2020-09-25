@@ -1,0 +1,40 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block title %}
+    {% trans "Results" %}
+{% endblock %}
+
+{% block content %}
+
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+
+
+    <div class="alert alert-success">
+<p class="card-text">
+    {% blocktrans trimmed %}
+    Your final savings balance was  <strong>{{payoff_scenario1}}</strong>.
+    In case you are selected for the large reward, you will get <strong>{{payoff}}</strong>.
+    </p><p>(The conversion rate is 100 ECU = &euro;1.)</p> <p>
+        Every respondent is equally likely to be selected for the large reward.
+The computer will randomly select someone after all respondents have finished the survey.
+    {% endblocktrans %}
+</p>
+
+
+
+
+</div>
+
+<button class="btn btn-primary btn-lg" name="selected" value="selected">{% trans "Next" %}
+
+</button>
+
+{% include 'snippets/InstructionsCounter.html' %}
+
+{% endblock %}
+
+

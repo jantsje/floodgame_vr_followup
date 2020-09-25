@@ -1,0 +1,187 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block styles %}
+<style>
+
+
+.col-sm-6{
+margin:0px;
+padding-left:0px;
+padding-right:0px;
+margin-bottom:20px;}
+
+
+.col-sm-1{
+padding-left:0px;
+padding-right:0px;
+}
+
+.col-sm-1-house{
+margin-bottom:20px;}
+
+.yours{
+display:inline-block;
+    position: absolute;
+    top: 40px;
+    right: -20px;}
+
+</style>
+
+{% endblock %}
+{% block title %}
+{% include 'snippets/Titelblok.html' %}
+{% endblock %}
+
+{% block content %}
+{% include 'snippets/Titel.html' %}
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+        <div class="alert alert-info alert-dismissible" role="alert">
+    <div class="jumbotron alert-info">
+
+        <h1 class="display-4"><strong>{% trans "25 years later..." %}
+</strong> </h1>
+        <p class="lead">
+            {% blocktrans trimmed %}
+            The computer has randomly selected one home per year to be flooded. <br>
+                You can now check what has happened.</p>
+            {% endblocktrans %}
+         <p class="lead">
+    <a class="btn btn-primary btn-lg" href="#" role="button" data-dismiss="alert" aria-label="Close">{% trans "Close this window to show which homes were flooded" %}</a>
+  </p>
+            <br><br> <br><br>
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br>
+
+<br><br><br><br>
+        <br><br><br><br>
+
+     </div></div>
+
+{% include 'snippets/Verdienstenbar.html' %}
+
+{% if player.flooded  %} <!--this loop is not easy to fix in the models-->
+   <div class="alert alert-danger" role="alert">
+       {% blocktrans trimmed %} Your home has been flooded at least once. {% endblocktrans %}</div>
+    {% else  %}
+    <div class="alert alert-success" role="alert">
+        {% blocktrans trimmed %} Your home was not flooded. {% endblocktrans %} </div>
+    {% endif %}
+
+<div class="card-body" style="margin-left:-50px;">
+<div class="row justify-content-start">
+<div class="col-md-6">
+<div class="row justify-content-end">
+
+    {% for item in items %}
+
+
+   <div class="col-md-1" style="height:60px;">
+                    {% if item|slugify in flood_nrs and item == "012"%}
+       <div class="col-lg-1"  >
+<i class="material-icons blue" style="outline: 1px dashed black;outline-offset: 8px;">home</i>
+           <small class="text-muted yours">{% trans "yours" %}</small>
+
+       <br> </div>
+                    {% elif item|slugify in flood_nrs %}<div class="col-md-1" ><i class="material-icons blue">home</i>
+
+
+       <br> </div>
+
+
+                    {% elif item == "012" %}<div class="col-md-1">
+<i class="material-icons black" style="outline: 1px dashed black;outline-offset: 8px;">home</i>
+                  <small class="text-muted yours">{% trans "yours" %}</small>
+
+
+<br></div>
+                    {% else %} <div class="col-md-1 " >
+
+<i class="material-icons black">home</i>
+   <br></div>
+                    {% endif %}
+
+
+        {% if forloop.counter|divisibleby:"10" and not forloop.last %}<!-- if last column in row -->
+        </div><div class="w-100">
+        {% endif %}
+</div>
+    {% endfor %}
+
+</div>
+</div>
+<div class="col-md-6">
+<div class="row justify-content-start">
+
+
+    {% for item in items2 %}
+
+    <!--if item in player.flood_nrs-->
+
+   <div class="col-md-1" style="height:60px;">
+                    {% if item|slugify in flood_nrs %}
+
+       <div class="col-md-1" >
+           <i class="material-icons blue">home</i><br>
+       </div>
+
+                    {% else %}
+
+       <div class="col-md-1" >
+           <i class="material-icons black">home</i><br>
+       </div>
+                    {% endif %}
+
+
+        {% if forloop.counter|divisibleby:"10" and not forloop.last %}<!-- if last column in row -->
+        </div><div class="w-100">
+        {% endif %}
+</div>
+    {% endfor %}
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+<p>
+
+<!--this loop is not easy to fix in the models-->
+{% if player.flooded  %}
+    {% blocktrans trimmed %}
+    100 homes are depicted above. All homes that have been flooded at least once in the past 25 years, are indicated in blue.
+    You were not insured and your home has been flooded. You need to pay to recover the {% endblocktrans %}
+        {% if player.mitigate > 0 %} <b> {% trans "reduced" %} </b> {% endif %}
+    {% blocktrans trimmed %}
+
+        damage.  {% endblocktrans %}
+    <br> <br>
+    <button name="pay_damage" value="paid_damage" class="btn btn-primary btn-right btn-lg">
+        {% blocktrans trimmed %} Pay {{reduced_damage_this_scenario}} damage {% endblocktrans %}</button>
+
+{% elif not player.flooded  %}
+    {% blocktrans trimmed %}
+    100 homes are depicted above. All homes that have been flooded at least once in the past 25 years, are indicated in blue.
+    Because your home was not flooded, you do not need to pay to recover the damage.
+    {% endblocktrans %} <br> <br>
+    <button name="pay_damage" value="no_flood" class="btn btn-primary btn-right btn-lg">
+    {% trans 'Next' %} </button>
+
+
+
+    {% endif %}
+
+</p>
+
+
+
+{% include 'snippets/InstructionsCounter.html' %}
+
+
+{% endblock %}

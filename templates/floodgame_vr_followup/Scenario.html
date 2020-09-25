@@ -1,0 +1,68 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+
+{% block title %}
+    {% trans "What would you do?" %}
+{% endblock %}
+
+{% block content %}
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+
+
+<div class="card">
+    <div class="card-body">
+    <div class="row">
+        <div class="col-md-2" align="center">
+            <i class="material-icons black" style="font-size:5em;">home</i>
+        </div>
+        <div class="col-md-10" align="left">
+            <p> {% trans "We will now present you a situation in which you own the home you will be living in for the coming 25 years." %}
+                {% trans "In addition to your home, you have a savings balance of 65.000 ECU (comparable to Euros) that you can use to pay for investments." %}
+                </p><p> {% trans "In the following scenario, try to imagine what you would do given that your home is prone to flooding." %}
+            </p>
+        </div>
+    </div>
+
+    <p> {% blocktrans trimmed %}
+        For this part of the research, a large reward is available. <strong>One of the participants will be
+        randomly selected </strong> to receive this reward. The game will be played by 500 participants at most,
+        which means that your chances of being selected for the large reward are at least 1:500.
+        The size of the reward depends on the final balance
+        of your savings account, which depends on your decisions in this scenario and whether a flood occurs.
+        {% endblocktrans %}
+    </p>
+    <p>
+    <p>
+        {% blocktrans trimmed %}
+        You can earn up to <strong>&euro;650</strong>. (The conversion rate is 100 ECU = &euro;1.) <br>
+        <strong> Therefore it is important to read the information carefully.</strong>
+        {% endblocktrans %}
+    </p>
+    </div>
+
+<div class="card-body alert-success"><h5>
+<b>
+    {% blocktrans trimmed %} There are no right or wrong answers in this scenario. {% endblocktrans %}
+</b> </h5>
+    <h5>
+    {% blocktrans trimmed %} We would like to know what you would do. {% endblocktrans %}
+    </h5>
+</div>
+</div>
+<br>
+<button class="btn btn-primary btn-right btn-lg">{% trans "Next" %}
+
+</button>
+
+{% include 'snippets/InstructionsCounter.html' %}
+
+
+
+
+{% endblock %}
+
+

@@ -1,0 +1,64 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block title %}
+    {{page_title}}
+{% endblock %}
+
+{% block content %}
+
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+
+<div class="card"><div class="card-body">
+    <p>
+        {% blocktrans trimmed %}
+        Here is an overview of your savings account of the past 25 years in the game:
+        {% endblocktrans %}
+    </p>
+
+    <table class="table table-bordered"  style="width:50%">
+
+       <tr>
+           <td> {% trans "Endowment" %} </td>
+           <td align="right"> {{Constants.initial_endowment}} </td>
+       </tr>
+       <tr>
+            <td> {% blocktrans trimmed %} Investment damage reducing measures {% endblocktrans %} </td>
+            <td align="right"> - {{mitigation_cost_this_scenario}} ECU</td>
+
+{% if player.flooded  %}
+        <tr>
+            <td> {% trans "Flood damage" %} </td>
+            <td align="right"> - {{reduced_damage_this_scenario}}</td></tr>
+        <tr>
+
+{% else %}
+        <tr>
+            <td> {% trans "Flood damage" %} </td>
+            <td align="right"> - 0 ECU </td></tr>
+        <tr>
+            {% endif %}
+
+
+        <tr>
+            <td><strong> {% trans "Total" %} </strong></td>
+            <td align="right"><strong> {{cumulative_payoff}}</strong></td>
+       </tr>
+    </table>
+
+
+</div></div>
+
+<br>
+<button class="btn btn-primary btn-lg" name="selected" value="selected">{% trans "Next" %}
+
+</button>
+
+{% include 'snippets/InstructionsCounter.html' %}
+
+{% endblock %}
+
+

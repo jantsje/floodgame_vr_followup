@@ -1,0 +1,1903 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-24 13:48+0200\n"
+"PO-Revision-Date: 2020-09-24 13:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: nl\n"
+"X-Generator: Poedit 2.3\n"
+
+#: .\extra_pages.py:50
+msgid "This is wrong. Please try again."
+msgstr "Dit is onjuist. Probeer opnieuw."
+
+#: .\extra_pages.py:51
+msgid "You still need to answer this question."
+msgstr "U moet deze vraag nog beantwoorden."
+
+#: .\models.py:176
+msgid ""
+"How easy or difficult was it to make a choice in the investment game you "
+"just played?"
+msgstr ""
+"Hoe makkelijk of moeilijk vond u het om een keuze te maken in het scenario?"
+
+#: .\models.py:177 .\models.py:388
+msgid "Very easy"
+msgstr "Heel erg makkelijk"
+
+#: .\models.py:178 .\models.py:389
+msgid "Somewhat easy"
+msgstr "Vrij makkelijk"
+
+#: .\models.py:179 .\models.py:390
+msgid "Neither easy/nor difficult"
+msgstr "Niet makkelijk/niet moeilijk"
+
+#: .\models.py:180 .\models.py:391
+msgid "Somewhat difficult"
+msgstr "Vrij moeilijk"
+
+#: .\models.py:181 .\models.py:392
+msgid "Very difficult"
+msgstr "Heel erg moeilijk"
+
+#: .\models.py:187
+msgid "Please briefly explain how you made decisions in the investment game."
+msgstr ""
+"Kunt u in het kort uitleggen hoe uw beslissingen tot stand kwamen in het "
+"scenario?"
+
+#: .\models.py:189
+msgid "What is your age?"
+msgstr "Hoe oud bent u?"
+
+#: .\models.py:190
+msgid "years"
+msgstr "jaar"
+
+#: .\models.py:192
+msgid "Male"
+msgstr "Man"
+
+#: .\models.py:192
+msgid "Female"
+msgstr "Vrouw"
+
+#: .\models.py:193
+msgid "What is your gender?"
+msgstr "Bent u man of vrouw?"
+
+#: .\models.py:198
+msgid ""
+"What is the likelihood that your home will be flooded in the next 25 years?"
+msgstr ""
+"Hoe groot of klein denkt u dat de kans is dat in de komende 25 jaar uw huis "
+"wordt getroffen door een overstroming?"
+
+#: .\models.py:199
+msgid "The probability is zero"
+msgstr "De kans is nul"
+
+#: .\models.py:200
+msgid "Very low"
+msgstr "Erg laag"
+
+#: .\models.py:201
+msgid "Low"
+msgstr "Laag"
+
+#: .\models.py:202
+msgid "Not low/not high"
+msgstr "Niet laag/niet hoog"
+
+#: .\models.py:203
+msgid "High"
+msgstr "Hoog"
+
+#: .\models.py:204
+msgid "Very high"
+msgstr "Heel hoog"
+
+#: .\models.py:205 .\models.py:371 .\models.py:381 .\models.py:393
+msgid "Don't know"
+msgstr "Weet ik niet"
+
+#: .\models.py:209
+msgid ""
+"Imagine your neighborhood is flooded. What height do you think the water "
+"would reach in your home?"
+msgstr ""
+"Stel dat uw buurt zou overstromen. Hoe hoog denkt u dat het water in uw "
+"huidige woning dan zou komen?"
+
+#: .\models.py:210
+msgid "The water would not reach my home"
+msgstr "Het water zou mijn woning niet bereiken"
+
+#: .\models.py:211
+msgid "Low (1-10 cm)"
+msgstr "Laag (1-10 cm)"
+
+#: .\models.py:212
+msgid "Pretty high (10-50 cm)"
+msgstr "Redelijk hoog (10-50 cm)"
+
+#: .\models.py:213
+msgid "Fairly high (50-100 cm)"
+msgstr "Behoorlijk hoog (50-100 cm)"
+
+#: .\models.py:214
+msgid "High (1-2 meter)"
+msgstr "Hoog (1-2 meter)"
+
+#: .\models.py:215
+msgid "Very high (more than 2 meter)"
+msgstr "Heel hoog (meer dan 2 meter)"
+
+#: .\models.py:219
+msgid ""
+"Please indicate which measures you have taken in your current home to "
+"protect your home against flood damage. (You can specify more than one.)"
+msgstr ""
+"U kunt hier aangeven welke van de volgende maatregelen u heeft genomen om uw "
+"huidige woning tegen overstromingsschade te beschermen. (Meerdere antwoorden "
+"mogelijk.)"
+
+#: .\models.py:226
+msgid "What is your household monthly income (after taxes)?"
+msgstr ""
+"Wat is (ongeveer) het netto maandelijks inkomen van uw gehele huishouden?"
+
+#: .\models.py:227 .\models.py:270
+msgid "Less than €500"
+msgstr "Minder dan €500"
+
+#: .\models.py:228 .\models.py:271
+msgid "Between €500 and €999"
+msgstr "Tussen €500 en €999"
+
+#: .\models.py:229
+msgid "Between €1,000 and €1,499"
+msgstr "Tussen €1.000 en €1.499"
+
+#: .\models.py:230
+msgid "Between €1,500 and €1,999"
+msgstr "Tussen €1.500 en €1.999"
+
+#: .\models.py:231
+msgid "Between €2,000 and €2,499"
+msgstr "Tussen €2.000 en €2,499"
+
+#: .\models.py:232
+msgid "Between €2,500 and €2,999"
+msgstr "Tussen €2.500 en €2.999"
+
+#: .\models.py:233
+msgid "Between €3,000 and €3,499"
+msgstr "Tussen €3.000 en €3,499"
+
+#: .\models.py:234
+msgid "Between €3,500 and €3,999"
+msgstr "Tussen €3.500 en €3.999"
+
+#: .\models.py:235
+msgid "Between €4,000 and €4,499"
+msgstr "Tussen €4.000 en €4,499"
+
+#: .\models.py:236
+msgid "Between €4,500 and €4,999"
+msgstr "Tussen €4.500 en €4.999"
+
+#: .\models.py:237
+msgid "Between €5,000 and €5,499"
+msgstr "Tussen €5.000 en €5,499"
+
+#: .\models.py:238
+msgid "Between €5,500 and €5,999"
+msgstr "Tussen €5.500 en €5.999"
+
+#: .\models.py:239
+msgid "€6,000 or more"
+msgstr "€6.000 of meer"
+
+#: .\models.py:240 .\models.py:281 .\models.py:301
+msgid "Don’t know"
+msgstr "Weet ik niet"
+
+#: .\models.py:241 .\models.py:302
+msgid "Rather not say"
+msgstr "Zeg ik liever niet"
+
+#: .\models.py:245
+msgid ""
+"Please indicate which of the following best describes the home you live in."
+msgstr ""
+"Welke van de volgende omschrijvingen past het beste bij uw huidige woning?"
+
+#: .\models.py:248
+msgid "What is the highest level of education you have completed?"
+msgstr "Wat is uw hoogst voltooide opleiding?"
+
+#: .\models.py:251
+msgid "What is your zipcode?"
+msgstr "Wat is uw postcode?"
+
+#: .\models.py:259
+msgid ""
+"This is the end of the survey. In case you have comments, please leave them "
+"here."
+msgstr ""
+"Dit is het einde van de vragenlijst. Als u opmerkingen heeft, kunt u deze "
+"hier noteren."
+
+#: .\models.py:263
+msgid "Have you ever been evacuated due to a threat of flooding?"
+msgstr "Bent u ooit geëvacueerd in verband met een dreigende overstroming?"
+
+#: .\models.py:264
+msgid "Yes"
+msgstr "Ja"
+
+#: .\models.py:264
+msgid "No"
+msgstr "Nee"
+
+#: .\models.py:269
+msgid ""
+"In the event of a future flood, how much damage would you expect to your "
+"home and property?"
+msgstr ""
+"Hoeveel schade aan uw huidige woning en inboedel denkt u dat een "
+"overstroming u zou kosten?"
+
+#: .\models.py:272
+msgid "Between €1,000 and €4,999"
+msgstr "Tussen €1.000 en €4.999"
+
+#: .\models.py:273
+msgid "Between €5,000 and €9,999"
+msgstr "Tussen €5.000 en €9.999"
+
+#: .\models.py:274
+msgid "Between €10,000 and €24,999"
+msgstr "Tussen €10.000 en €24.999"
+
+#: .\models.py:275
+msgid "Between €25,000 and €49,999"
+msgstr "Tussen €25.000 en €49.999"
+
+#: .\models.py:276
+msgid "Between €50,000 and €74,499"
+msgstr "Tussen €50.000 en €74.499"
+
+#: .\models.py:277
+msgid "Between €75,000 and €99,999"
+msgstr "Tussen €75.000 en €99.999"
+
+#: .\models.py:278
+msgid "Between €100,000 and €249,999"
+msgstr "Tussen €100.000 en €249.999"
+
+#: .\models.py:279
+msgid "Between €250,000 and €499,999"
+msgstr "Tussen €250.000 en €499.999"
+
+#: .\models.py:280
+msgid "€500,000 or more"
+msgstr "€500.000 of meer"
+
+#: .\models.py:284
+msgid "What is the approximate market value of your home?"
+msgstr "Wat is ongeveer de marktwaarde van uw huidige woning?"
+
+#: .\models.py:285
+msgid "Less than €100,000"
+msgstr "Minder dan €100.000"
+
+#: .\models.py:286
+msgid "Between €100,000 and €149,000"
+msgstr "Tussen €100.000 en €149.999"
+
+#: .\models.py:287
+msgid "Between €150,000 and €199,999"
+msgstr "Tussen €150.000 en €199.999"
+
+#: .\models.py:288
+msgid "Between €200,000 and €249,000"
+msgstr "Tussen €200.000 en €249.999"
+
+#: .\models.py:289
+msgid "Between €250,000 and €299,999"
+msgstr "Tussen €250.000 en €299.999"
+
+#: .\models.py:290
+msgid "Between €300,000 and €349,000"
+msgstr "Tussen €300.000 en €349.999"
+
+#: .\models.py:291
+msgid "Between €350,000 and €399,999"
+msgstr "Tussen €350.000 en €399.999"
+
+#: .\models.py:292
+msgid "Between €400,000 and €449,000"
+msgstr "Tussen €400.000 en €449.999"
+
+#: .\models.py:293
+msgid "Between €450,000 and €499,999"
+msgstr "Tussen €450.000 en €499.999"
+
+#: .\models.py:294
+msgid "Between €500,000 and €549,000"
+msgstr "Tussen €500.000 en €549.999"
+
+#: .\models.py:295
+msgid "Between €550,000 and €599,999"
+msgstr "Tussen €550.000 en €599.999"
+
+#: .\models.py:296
+msgid "Between €600,000 and €649,000"
+msgstr "Tussen €600.000 en €649.999"
+
+#: .\models.py:297
+msgid "Between €650,000 and €699,999"
+msgstr "Tussen €650.000 en €699.999"
+
+#: .\models.py:298
+msgid "Between €700,000 and €749,000"
+msgstr "Tussen €700.000 en €749.999"
+
+#: .\models.py:299
+msgid "Between €750,000 and €799,999"
+msgstr "Tussen €750.000 en €799.999"
+
+#: .\models.py:300
+msgid "€800,000 or more"
+msgstr "€800.000 of meer"
+
+#: .\models.py:306
+msgid ""
+"When a flood occurred in the scenario, I felt regret about not investing "
+"(more) in protection."
+msgstr ""
+"Ik had spijt dat ik niet (meer) had geinvesteerd in schadebeperkende "
+"maatregelen, toen in het scenario een overstroming plaatsvond."
+
+#: .\models.py:308 .\models.py:317 .\models.py:327 .\models.py:344
+#: .\templates\floodgame_vr_followup\AfterVR.html:58
+msgid "Strongly disagree"
+msgstr "Helemaal niet mee eens"
+
+#: .\models.py:309 .\models.py:318 .\models.py:328 .\models.py:345
+#: .\templates\floodgame_vr_followup\AfterVR.html:59
+msgid "Disagree"
+msgstr "Oneens"
+
+#: .\models.py:310 .\models.py:319 .\models.py:329 .\models.py:346
+#: .\templates\floodgame_vr_followup\AfterVR.html:60
+msgid "Neither agree nor disagree"
+msgstr "Niet eens niet oneens"
+
+#: .\models.py:311 .\models.py:320 .\models.py:330 .\models.py:347
+#: .\templates\floodgame_vr_followup\AfterVR.html:61
+msgid "Agree"
+msgstr "Eens"
+
+#: .\models.py:312 .\models.py:321 .\models.py:331 .\models.py:348
+#: .\templates\floodgame_vr_followup\AfterVR.html:62
+msgid "Strongly agree"
+msgstr "Helemaal mee eens"
+
+#: .\models.py:316
+msgid ""
+"When no flood occurred in the scenario, I felt regret about paying for "
+"protection."
+msgstr ""
+"Toen in mijn scenario geen overstroming plaatsvond, had ik spijt van het "
+"betalen voor schadebeperkende maatregelen."
+
+#: .\models.py:325
+msgid ""
+"I would feel regret about not investing in protection, if a flood would have "
+"occurred in the scenario."
+msgstr ""
+"Ik zou spijt hebben van het niet investeren in schadebeperkende maatregelen, "
+"als in het scenario een overstroming had plaatsgevonden."
+
+#: .\models.py:335
+msgid "I am worried about the danger of flooding at my current residence."
+msgstr ""
+"Ik maak me zorgen over het gevaar van een overstroming op mijn huidige adres."
+
+#: .\models.py:339
+msgid "I am confident that the dikes in my country are maintained well."
+msgstr "Ik vertrouw erop dat de dijken in mijn land goed worden onderhouden."
+
+#: .\models.py:343
+msgid ""
+"It is the responsibility of a property owner to protect their property from "
+"flood damage."
+msgstr ""
+"Het is de verantwoordelijkheid van een huiseigenaar om zijn/haar woning en "
+"inboedel te beschermen tegen overstromingsschade."
+
+#: .\models.py:352
+msgid ""
+"How willing are you to give up money today in order to benefit from it in "
+"the future?"
+msgstr ""
+"In hoeverre bent u bereid vandaag geld opzij te zetten om hiervan in de "
+"toekomst profijt te hebben?"
+
+#: .\models.py:355
+msgid "In general, how willing or unwilling are you to take risks?"
+msgstr "Bent u over het algemeen bereid om risico's te nemen?"
+
+#: .\models.py:358
+msgid "In the virtual environment I had a sense of 'being there'."
+msgstr "Ik had het gevoel aanwezig te zijn in de virtuele omgeving."
+
+#: .\models.py:361
+msgid ""
+"Did you feel general discomfort, nauseous or dizzy in the virtual "
+"environment?"
+msgstr ""
+"Heeft u enig ongemak ervaren in de virtuele omgeving, zoals misselijkheid of "
+"duizeligheid?"
+
+#: .\models.py:365
+msgid ""
+"How effective is it to invest in flood protection measures that limit flood "
+"damage for your current home?"
+msgstr ""
+"Hoe effectief is investeren in (overstromings)schadebeperkende maatregelen "
+"voor uw huidige woning?"
+
+#: .\models.py:366
+msgid "Very effective"
+msgstr "Heel erg effectief"
+
+#: .\models.py:367
+msgid "Effective"
+msgstr "Effectief"
+
+#: .\models.py:368
+msgid "Neither effective nor ineffective"
+msgstr "Niet effectief/niet ineffectief"
+
+#: .\models.py:369
+msgid "Ineffective"
+msgstr "Niet effectief"
+
+#: .\models.py:370
+msgid "Very ineffective"
+msgstr "Totaal niet effectief"
+
+#: .\models.py:375
+msgid ""
+"How costly is it to take flood protection measures that limit flood damage "
+"for your current home?"
+msgstr ""
+"Hoe duur is het om (overstromings)schadebeperkende maatregelen te nemen voor "
+"uw huidige woning?"
+
+#: .\models.py:376
+msgid "Very cheap"
+msgstr "Heel erg goedkoop"
+
+#: .\models.py:377
+msgid "Cheap"
+msgstr "Goedkoop"
+
+#: .\models.py:378
+msgid "Neither cheap nor costly"
+msgstr "Niet goedkoop niet duur"
+
+#: .\models.py:379
+msgid "Costly"
+msgstr "Duur"
+
+#: .\models.py:380
+msgid "Very costly"
+msgstr "Heel erg duur"
+
+#: .\models.py:386
+msgid ""
+"Aside from the cost, how difficult is it to take flood protection measures "
+"that limit flood damage for your current home?"
+msgstr ""
+"Afgezien van de kosten, hoe moeilijk is het om "
+"(overstromings)schadebeperkende maatregelen te nemen voor uw huidige woning?"
+
+#: .\models.py:440
+msgid "test scenario"
+msgstr "oefenscenario"
+
+#: .\models.py:443
+msgid "final scenario"
+msgstr "definitief scenario"
+
+#: .\pages.py:162
+msgid "Test scenario"
+msgstr "Oefenscenario"
+
+#: .\pages.py:164
+msgid "Final scenario"
+msgstr "Definitief scenario"
+
+#: .\pages.py:191
+msgid "Investment"
+msgstr "Investering"
+
+#: .\pages.py:215
+msgid "Floods"
+msgstr "Overstromingen"
+
+#: .\pages.py:240
+msgid "Overview of the past 25 years "
+msgstr "Overzicht van de afgelopen 25 jaar "
+
+#: .\pages.py:270
+msgid "Thanks for your participation"
+msgstr "Hartelijk dank voor uw deelname"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:6
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:6
+msgid "Final Questionnaire"
+msgstr "Afsluitende vragenlijst"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:17
+msgid "We would like to know how you have experienced the VR world."
+msgstr "We willen graag weten hoe u de VR omgeving heeft ervaren."
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:18
+msgid "Please rate the following statements."
+msgstr "Graag uw reactie op de volgende stellingen."
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:32
+msgid "totally disagree"
+msgstr "helemaal niet mee eens"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:33
+msgid "not at all"
+msgstr "geen enkel ongemak"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:42
+msgid "totally agree"
+msgstr "helemaal mee eens (net zoals 'in het echt')"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:43
+msgid "a lot of discomfort"
+msgstr "erg veel ongemak (simulatie moest beëindigd worden)"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:51
+msgid ""
+"Please indicate the extent to which you agree or disagree with the following "
+"statements."
+msgstr "In hoeverre bent u het eens of oneens met onderstaande beweringen?"
+
+#: .\templates\floodgame_vr_followup\AfterVR.html:92
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:339
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:341
+#: .\templates\floodgame_vr_followup\Floods.html:174
+#: .\templates\floodgame_vr_followup\Instructions.html:25
+#: .\templates\floodgame_vr_followup\Overview.html:56
+#: .\templates\floodgame_vr_followup\Results.html:32
+#: .\templates\floodgame_vr_followup\Scenario.html:57 .\templates\snippets\Form.html:19
+msgid "Next"
+msgstr "Volgende"
+
+#: .\templates\floodgame_vr_followup\Check.html:68 .\templates\floodgame_vr_followup\Page.html:24
+msgid "Instructions"
+msgstr "Instructies"
+
+#: .\templates\floodgame_vr_followup\Complete.html:6
+#: .\templates\floodgame_vr_followup\Thanks.html:6
+msgid "Thank you for your participation"
+msgstr "Hartelijk dank voor uw deelname"
+
+#: .\templates\floodgame_vr_followup\Complete.html:22
+#: .\templates\floodgame_vr_followup\Thanks.html:22
+msgid "This was the final page."
+msgstr "Dit was de laatste pagina."
+
+#: .\templates\floodgame_vr_followup\Complete.html:27
+msgid "Close this window"
+msgstr "Sluit dit venster"
+
+#: .\templates\floodgame_vr_followup\Decision.html:25
+msgid "How much do you want to invest to reduce flood damage?"
+msgstr ""
+"Hoeveel wilt u investeren om de schade van een overstroming te beperken?"
+
+#: .\templates\floodgame_vr_followup\Decision.html:37
+msgid "do not invest: <br> accept"
+msgstr "geen investering: <br>accepteer"
+
+#: .\templates\floodgame_vr_followup\Decision.html:37
+#: .\templates\snippets\Beliefs.html:9
+msgid "damage"
+msgstr "schade"
+
+#: .\templates\floodgame_vr_followup\Decision.html:46
+#: .\templates\floodgame_vr_followup\Decision.html:52
+#: .\templates\floodgame_vr_followup\Decision.html:58
+#: .\templates\floodgame_vr_followup\Decision.html:64
+#: .\templates\snippets\Beliefs.html:15 .\templates\snippets\Beliefs.html:25
+#: .\templates\snippets\Beliefs.html:33 .\templates\snippets\Beliefs.html:40
+msgid "reduce damage to"
+msgstr "verminder schade tot"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:83
+msgid ""
+"<p> Thank you for your participation in this research. </p><p> </p><p> In "
+"case you are selected for the large reward, we will get in touch with you. </"
+"p><p> In case you have questions about the research, feel free to send an "
+"email to: <a href=\"mailto:info.ivm@vu.nl?subject=Question about IVM survey"
+"\">info.ivm@vu.nl</a> </p>"
+msgstr ""
+"<p> Hartelijk dank voor uw deelname aan dit onderzoek. </p><p> </p><p> Mocht "
+"u geselecteerd worden voor uitbetaling van de grote prijs, dan zullen wij "
+"contact met u opnemen. </p><p> Als u vragen heeft over het onderzoek, dan "
+"kunt u een e-mail sturen naar <a href=\"mailto:info.ivm@vu.nl?subject=Vraag "
+"over IVM vragenlijst\">info.ivm@vu.nl</a> </p>"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:100
+msgid ""
+"This was the end of the scenario. We will now ask some questions about the "
+"scenario."
+msgstr ""
+"Dit was het einde van het scenario. Er volgen nu enkele vragen over het "
+"scenario."
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:109
+#: .\templates\floodgame_vr_followup\StartScenario.html:25
+#: .\templates\floodgame_vr_followup\StartScenario.html:34
+#: .\templates\snippets\Beliefs.html:89
+msgid "Caution!"
+msgstr "Let op!"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:109
+msgid ""
+"The questions on the next pages concern your current home (not the home in "
+"the scenario)."
+msgstr ""
+"De vragen op de volgende pagina's betreffen uw huidige woning (niet uw "
+"woning in het scenario)."
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:122
+msgid "completely unwilling"
+msgstr "totaal niet bereid"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:135
+msgid "completely willing"
+msgstr "totaal bereid"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:152
+msgid "No valuables in basement"
+msgstr "Geen waardevolle spullen in de kelder"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:155
+msgid "Water-resistant furniture on ground floor"
+msgstr "Waterresistente meubels op begane grond"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:158
+msgid "Elevated ground floor"
+msgstr "Verhoogde vloer / huis op palen"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:161
+msgid "Strengthened foundation"
+msgstr "Versterkte fundering"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:164
+msgid "Walls made of water-resistant materials"
+msgstr "Muren gemaakt van waterresistent materiaal"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:167
+msgid ""
+"Floor of ground floor made of water-resistant materials (e.g. tile floor)"
+msgstr "Vloer gemaakt van waterresistent materiaal (bijvoorbeeld tegels)"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:170
+msgid "Raised power sockets on ground floor"
+msgstr "Stopcontacten hoger in de muur geplaatst"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:173
+msgid "Anti-backflow valves"
+msgstr "Terugslagklep op riolering/waterleiding"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:176
+msgid "(Empty) sand bags or flood barriers at home"
+msgstr "(Lege) zandzakken en/of vloedschotten in huis"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:179
+msgid "Elevated electrical appliances"
+msgstr "Wasmachine en/of droger verplaatst naar een hogere verdieping"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:182
+msgid "Elevated boiler"
+msgstr "CV ketel en/of boiler verplaatst naar een hogere verdieping"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:185
+msgid "Elevated electricity meter"
+msgstr "Meterkast verplaatst naar een hogere verdieping"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:188
+msgid "Bought separate flood insurance"
+msgstr "Aparte overstromingsverzekering gekocht"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:193
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:256
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:298
+msgid "Other:"
+msgstr "Anders, namelijk:"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:201
+msgid "None"
+msgstr "Geen"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:212
+msgid "No diploma"
+msgstr "Geen diploma"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:217
+msgid "Primary school"
+msgstr "Basisschool"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:222
+msgid "Lower vocational education  (VBO, LBO)"
+msgstr "VBO, LBO"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:227
+msgid "Lower general secondary education (ULO, MULO, VMBO, MAVO)"
+msgstr "ULO, MULO, VMBO, MAVO"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:232
+msgid "Lower vocational secondary education (MBO)"
+msgstr "MBO"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:237
+msgid ""
+"Higher general secondary education or pre-university education (HAVO, VWO, "
+"HBS)"
+msgstr "HAVO, VWO, Atheneum, Gymnasium, HBS"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:242
+msgid "Higher vocational and university education (HBO, WO Bachelor)"
+msgstr "HBO, Universitaire Bachelor"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:247
+msgid "Master’s degree (WO Master)"
+msgstr "Universitaire master, doctoraal"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:252
+msgid "Doctorate, PhD"
+msgstr "Promotie-onderzoek, doctoraat"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:272
+msgid ""
+"The last questions concern financial matters. </p><p> Remember that your "
+"answers are strictly confidential and will not be used for commercial "
+"purposes.</p>"
+msgstr ""
+"De laatste vragen betreffen financiële zaken. </p><p> Nogmaals, uw "
+"antwoorden zijn strikt vertrouwelijk en worden niet gebruikt voor "
+"commerciële doeleinden.</p>"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:286
+msgid "House"
+msgstr "Woonhuis"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:290
+msgid "Ground floor apartment"
+msgstr "Appartement op de begane grond"
+
+#: .\templates\floodgame_vr_followup\FinalQuestions.html:294
+msgid "Apartment on first floor or higher"
+msgstr "Appartement op de eerste verdieping of hoger"
+
+#: .\templates\floodgame_vr_followup\Floods.html:45
+msgid "25 years later..."
+msgstr "25 jaar later..."
+
+#: .\templates\floodgame_vr_followup\Floods.html:48
+msgid ""
+"The computer has randomly selected one home per year to be flooded. <br> You "
+"can now check what has happened.</p>"
+msgstr ""
+"De computer heeft willekeurig één huis per jaar geselecteerd voor een "
+"overstroming. <br> U kunt nu bekijken wat er is gebeurd. </p>"
+
+#: .\templates\floodgame_vr_followup\Floods.html:53
+msgid "Close this window to show which homes were flooded"
+msgstr "Sluit dit venster om te zien welke huizen zijn overstroomd"
+
+#: .\templates\floodgame_vr_followup\Floods.html:69
+msgid "Your home has been flooded at least once."
+msgstr "Uw huis is ten minste eenmaal overstroomd."
+
+#: .\templates\floodgame_vr_followup\Floods.html:72
+msgid "Your home was not flooded."
+msgstr "Uw huis is niet overstroomd."
+
+#: .\templates\floodgame_vr_followup\Floods.html:87
+#: .\templates\floodgame_vr_followup\Floods.html:98
+msgid "yours"
+msgstr "uw huis"
+
+#: .\templates\floodgame_vr_followup\Floods.html:157
+msgid ""
+"100 homes are depicted above. All homes that have been flooded at least once "
+"in the past 25 years, are indicated in blue. You were not insured and your "
+"home has been flooded. You need to pay to recover the"
+msgstr ""
+"Hierboven ziet u 100 huizen afgebeeld. De huizen die in de afgelopen 25 jaar "
+"minstens eenmaal zijn overstroomd, zijn aangegeven in het blauw. U had geen "
+"verzekering en uw huis is overstroomd. U moet nu de"
+
+#: .\templates\floodgame_vr_followup\Floods.html:160
+msgid "reduced"
+msgstr "verminderde"
+
+#: .\templates\floodgame_vr_followup\Floods.html:161
+msgid "damage."
+msgstr "schade betalen."
+
+#: .\templates\floodgame_vr_followup\Floods.html:166
+#, python-format
+msgid "Pay %(reduced_damage_this_scenario)s damage"
+msgstr "Betaal %(reduced_damage_this_scenario)s schade"
+
+#: .\templates\floodgame_vr_followup\Floods.html:169
+msgid ""
+"100 homes are depicted above. All homes that have been flooded at least once "
+"in the past 25 years, are indicated in blue. Because your home was not "
+"flooded, you do not need to pay to recover the damage."
+msgstr ""
+"Hierboven ziet u 100 huizen afgebeeld. De huizen die in de afgelopen 25 jaar "
+"minstens eenmaal zijn overstroomd, zijn aangegeven in het blauw. Omdat uw "
+"huis niet is overstroomd, hoeft u niets te betalen om de schade te "
+"herstellen."
+
+#: .\templates\floodgame_vr_followup\Instructions.html:6
+msgid "Information about the scenario"
+msgstr "Informatie over het scenario"
+
+#: .\templates\floodgame_vr_followup\Instructions.html:20
+msgid "We will start with a test scenario to get familiar with the game."
+msgstr ""
+"We starten met een oefenscenario om bekend te raken met de mogelijkheden in "
+"het spel."
+
+#: .\templates\floodgame_vr_followup\Overview.html:17
+msgid ""
+"Here is an overview of your savings account of the past 25 years in the game:"
+msgstr ""
+"Hier vindt u een overzicht van uw spaarrekening in de afgelopen 25 jaar van "
+"het experiment:"
+
+#: .\templates\floodgame_vr_followup\Overview.html:25
+msgid "Endowment"
+msgstr "Startkapitaal"
+
+#: .\templates\floodgame_vr_followup\Overview.html:29
+msgid "Investment damage reducing measures"
+msgstr "Investering schadebeperkende maatregelen"
+
+#: .\templates\floodgame_vr_followup\Overview.html:34
+#: .\templates\floodgame_vr_followup\Overview.html:40
+msgid "Flood damage"
+msgstr "Overstromingsschade"
+
+#: .\templates\floodgame_vr_followup\Overview.html:47
+msgid "Total"
+msgstr "Totaal"
+
+#: .\templates\floodgame_vr_followup\Results.html:6
+msgid "Results"
+msgstr "Resultaten"
+
+#: .\templates\floodgame_vr_followup\Results.html:18
+#, python-format
+msgid ""
+"Your final savings balance was  <strong>%(payoff_scenario1)s</strong>. In "
+"case you are selected for the large reward, you will get <strong>%(payoff)s</"
+"strong>. </p><p>(The conversion rate is 100 ECU = &euro;1.)</p> <p> Every "
+"respondent is equally likely to be selected for the large reward. The "
+"computer will randomly select someone after all respondents have finished "
+"the survey."
+msgstr ""
+"Het bedrag op uw spaarrekening op de laatste pagina was  <strong>"
+"%(payoff_scenario1)s</strong>. Mocht u worden geselecteerd voor de grote "
+"betaling, dan krijgt u <strong>%(payoff)s</strong>. (De omrekenfactor is 100 "
+"ECU = &euro;1).</p> <p>Iedere deelnemer heeft evenveel kans om geselecteerd "
+"te worden voor deze grote betaling. De computer zal willekeurig iemand "
+"selecteren nadat alle deelnemers de vragenlijst hebben voltooid."
+
+#: .\templates\floodgame_vr_followup\Scenario.html:7
+msgid "What would you do?"
+msgstr "Wat zou u doen?"
+
+#: .\templates\floodgame_vr_followup\Scenario.html:23
+msgid ""
+"We will now present you a situation in which you own the home you will be "
+"living in for the coming 25 years."
+msgstr ""
+"We willen u nu een situatie voorleggen waarin u voor 25 jaar eigenaar bent "
+"van het huis waarin u woont."
+
+#: .\templates\floodgame_vr_followup\Scenario.html:24
+msgid ""
+"In addition to your home, you have a savings balance of 65.000 ECU "
+"(comparable to Euros) that you can use to pay for investments."
+msgstr ""
+"Naast uw woning heeft u beschikking over een spaarrekening van 65.000 ECU "
+"(vergelijkbaar met euro's). U kunt deze spaarrekening gebruiken om "
+"investeringen te doen."
+
+#: .\templates\floodgame_vr_followup\Scenario.html:25
+msgid ""
+"In the following scenario, try to imagine what you would do given that your "
+"home is prone to flooding."
+msgstr ""
+"In het volgende scenario, probeert u zich voor te stellen wat u zou doen, "
+"gegeven dat uw huis in een overstroombaar gebied staat."
+
+#: .\templates\floodgame_vr_followup\Scenario.html:30
+msgid ""
+"For this part of the research, a large reward is available. <strong>One of "
+"the participants will be randomly selected </strong> to receive this reward. "
+"The game will be played by 500 participants at most, which means that your "
+"chances of being selected for the large reward are at least 1:500. The size "
+"of the reward depends on the final balance of your savings account, which "
+"depends on your decisions in this scenario and whether a flood occurs."
+msgstr ""
+"Voor dit gedeelte van het onderzoek is een grote beloning beschikbaar, die "
+"<strong> willekeurig aan één van de deelnemers</strong> wordt uitgeloofd. "
+"Het spel zal door maximaal 500 deelnemers gespeeld worden, wat betekent dat "
+"uw kans om geselecteerd te worden minstens 1 op 500 is. De grootte van deze "
+"beloning hangt af van uw uiteindelijke saldo op uw spaarrekening dat bepaald "
+"wordt door uw keuzes in dit scenario en of een overstroming plaatsvindt."
+
+#: .\templates\floodgame_vr_followup\Scenario.html:40
+msgid ""
+"You can earn up to <strong>&euro;650</strong>. (The conversion rate is 100 "
+"ECU = &euro;1.) <br> <strong> Therefore it is important to read the "
+"information carefully.</strong>"
+msgstr ""
+"U kunt tot <strong>&euro;650</strong> verdienen. (De omrekenfactor is 100 "
+"ECU = &euro;1. ) <br> <strong>Het is dus van belang dat u de informatie over "
+"het scenario zorgvuldig leest. </strong>"
+
+#: .\templates\floodgame_vr_followup\Scenario.html:49
+msgid "There are no right or wrong answers in this scenario."
+msgstr "Er zijn geen juiste of onjuiste antwoorden in dit scenario."
+
+#: .\templates\floodgame_vr_followup\Scenario.html:52
+msgid "We would like to know what you would do."
+msgstr "We zijn benieuwd naar wat u zou doen."
+
+#: .\templates\floodgame_vr_followup\StartScenario.html:26
+msgid ""
+"You can use this test scenario to get familiar with the possibilities. The "
+"results will not be used to calculate your final payoff. Start by clicking "
+"the button below."
+msgstr ""
+"U kunt dit oefenscenario gebruiken om bekend te raken met de mogelijkheden. "
+"De resultaten zullen niet mee worden genomen bij het bepalen van uw "
+"verdiensten. Start door op de knop hieronder te klikken."
+
+#: .\templates\floodgame_vr_followup\StartScenario.html:35
+msgid ""
+"Please take your time to read the information on the following pages very "
+"carefully. It is important for your final payoff. The final scenario starts "
+"by clicking the button below."
+msgstr ""
+"Neem de tijd om de informatie goed te lezen, want het is belangrijk voor uw "
+"uiteindelijke verdiensten. Het definitieve scenario begint zodra u op "
+"onderstaande knop klikt."
+
+#: .\templates\floodgame_vr_followup\StartScenario.html:46
+msgid "Start the test scenario"
+msgstr "Start het oefenscenario"
+
+#: .\templates\floodgame_vr_followup\StartScenario.html:48
+msgid "Start the final scenario"
+msgstr "Start het definitieve scenario"
+
+#: .\templates\floodgame_vr_followup\Welcome.html:6
+msgid "Welcome"
+msgstr "Welkom"
+
+#: .\templates\floodgame_vr_followup\Welcome.html:28
+msgid "Start"
+msgstr "Start"
+
+#: .\templates\snippets\Beliefs.html:9
+msgid "do not invest: accept"
+msgstr "geen investering: accepteer"
+
+#: .\templates\snippets\Beliefs.html:54
+msgid "We would like to know what you think other respondents will do."
+msgstr "We zijn benieuwd wat u denkt dat andere mensen zullen kiezen."
+
+#: .\templates\snippets\Beliefs.html:60
+msgid "I estimate that"
+msgstr "Ik denk dat"
+
+#: .\templates\snippets\Beliefs.html:74
+msgid ""
+"of all respondents <u>will invest in damage reducing measures </u>(any "
+"amount, i.e. 1000, 5000, 10.000 or 15.000 ECU)."
+msgstr ""
+"van alle deelnemers <u> iets zal investeren in schadebeperkende maatregelen "
+"</u>(elk bedrag, dus 1000, 5000, 10.000 of 15.000 ECU)."
+
+#: .\templates\snippets\Beliefs.html:89
+msgid "You also predict that"
+msgstr "U voorspelt dus ook dat"
+
+#: .\templates\snippets\Beliefs.html:102
+msgid ""
+"of all respondents <u>will not invest in damage reducing measures </u> (0 "
+"ECU)."
+msgstr ""
+"van alle deelnemers zal <u>niets zal investeren in schadebeperkende "
+"maatregelen </u> (0 ECU)."
+
+#: .\templates\snippets\Beliefs.html:109
+msgid "Confirm prediction"
+msgstr "Bevestig voorspelling"
+
+#: .\templates\snippets\Instr.html:11
+msgid ""
+"Imagine that you own a home you will be living in for <b> the next 25 years. "
+"</b> Furthermore, you own a savings account with a balance of"
+msgstr ""
+"Stelt u zich voor dat u <b> de komende 25 jaar </b> eigenaar bent van het "
+"huis waarin u woont. Daarnaast heeft u"
+
+#: .\templates\snippets\Instr.html:16
+msgid "(comparable to Euros)."
+msgstr "(vergelijkbaar met euro's)."
+
+#: .\templates\snippets\Instr.html:21
+#, python-format
+msgid ""
+"The probability of a flood is <strong>%(risk)s percent per year. </strong> "
+"The probability that your house is flooded at least once in the coming 25 "
+"years is approximately <strong>22 percent</strong>."
+msgstr ""
+"De kans op een overstroming is <strong>%(risk)s procent per jaar</strong>. "
+"De kans dat uw woning minstens eenmaal overstroomt in die 25 jaar is "
+"ongeveer <strong>22 procent</strong>."
+
+#: .\templates\snippets\Instr.html:32
+msgid "The computer selects each year at random which house gets flooded."
+msgstr ""
+"De computer selecteert ieder jaar willekeurig welk huis zal overstromen."
+
+#: .\templates\snippets\Instr.html:33
+msgid "The probability that the blue house is flooded, is 1 percent."
+msgstr "De kans dat het blauwe huis overstroomt, is 1 procent."
+
+#: .\templates\snippets\Instr.html:52
+msgid ""
+"You can invest in <b> damage reducing measures</b> to protect your home from "
+"flooding. These measures will not change the probability of a flood, but "
+"they can <b> reduce damage </b> in case of a flood."
+msgstr ""
+"Om uw woning te beschermen tegen overstromingsschade, kunt u investeren in "
+"<b> schadebeperkende maatregelen </b>. Deze maatregelen zullen niet de "
+"overstromingskans veranderen, maar ze kunnen de <b> schade verminderen</b>, "
+"mocht een overstroming plaatsvinden."
+
+#: .\templates\snippets\Instr.html:57
+msgid ""
+"An example of such a damage reducing measure is moving your electric "
+"appliances to a higher floor."
+msgstr ""
+"Een voorbeeld van zo een schadebeperkende maatregel is het verhuizen van uw "
+"wasmachine en cv-ketel naar ene hogere verdieping. "
+
+#: .\templates\snippets\Instr.html:60
+msgid ""
+"You can decide for yourself how much you want to invest. The more you "
+"invest, the lower the expected damage."
+msgstr ""
+"U kunt kiezen hoeveel u wilt investeren. Hoe hoger de investering, hoe "
+"minder de verwachte schade."
+
+#: .\templates\snippets\Risicoblok.html:8
+msgid "Flood probability is"
+msgstr "Kans op een overstroming is"
+
+#: .\templates\snippets\Risicoblok.html:8
+msgid "percent"
+msgstr "procent"
+
+#: .\templates\snippets\Risicoblok.html:9
+msgid "per year"
+msgstr "per jaar"
+
+#: .\templates\snippets\Schadeblok.html:9
+msgid "Damage"
+msgstr "Schade"
+
+#: .\templates\snippets\Schadeblok.html:10
+msgid "in case of flooding"
+msgstr "bij een overstroming"
+
+#: .\templates\snippets\Tijdblok.html:10
+msgid "25 year"
+msgstr "25 jaar"
+
+#: .\templates\snippets\Tijdblok.html:10
+msgid "scenario"
+msgstr "scenario"
+
+#: .\templates\snippets\Titel.html:9
+msgid "open the instructions"
+msgstr "open de instructies"
+
+#: .\templates\snippets\Verdienstenbar.html:12
+msgid "You own: your house and you have"
+msgstr "U bezit: uw huis en u heeft"
+
+#: .\templates\snippets\Verdienstenbar.html:13
+msgid "on your savings account"
+msgstr "op uw spaarrekening"
+
+#: .\templates\snippets\Verzekeringsblok.html:10
+msgid ""
+"<span style=\"color:#007bff;\">  No insurance </span> </h6> <small class="
+"\"text-muted\">In case of a flood you pay the <strong>full damage</strong>. "
+"</small>"
+msgstr ""
+"<span style=\"color:#007bff;\">  Geen verzekering </span> </h6><small class="
+"\"text-muted\">Bij een overstroming betaalt u <strong>alle schade</strong>.</"
+"small>"
+
+#~ msgid ""
+#~ "Do you know anyone in your community who has taken one or more of these "
+#~ "measures?"
+#~ msgstr ""
+#~ "Kent u mensen in uw directe omgeving die één of meer van deze maatregelen "
+#~ "hebben genomen?"
+
+#~ msgid ""
+#~ "Please indicate your relationship to the person(s) who invested in one or "
+#~ "more damage reducing measures."
+#~ msgstr ""
+#~ "Wat is uw relatie is tot de persoon/personen in uw omgeving die "
+#~ "schadebeperkende maatregelen heeft/hebben genomen?"
+
+#~ msgid "Please indicate the size of your ground floor in square meters."
+#~ msgstr "Hoe groot is de oppervlakte van uw begane grond ongeveer?"
+
+#~ msgid "Do you currently live in a flood-prone area?"
+#~ msgstr "Woont u op dit moment in een gebied dat kan overstromen?"
+
+#~ msgid "Yes, I am certain that I live in a flood-prone area."
+#~ msgstr "Ja, ik ben er zeker van dat ik in een overstroombaar gebied woon."
+
+#~ msgid "Yes, I think that I live in a flood-prone area, but I am not sure."
+#~ msgstr ""
+#~ "Ja, ik denk dat ik in een risicogebied woon, maar ik weet het niet zeker."
+
+#~ msgid "No, I am certain that I do not live in a flood-prone area."
+#~ msgstr "Nee, ik ben er zeker van dat ik niet in een risicogebied woon."
+
+#~ msgid "Have you ever experienced damage to your home due to a flood?"
+#~ msgstr "Heeft u ooit schade gehad als gevolg van een overstroming?"
+
+#~ msgid ""
+#~ "What was the total cost of flood damage to your home and its content, as "
+#~ "a result of this flood?"
+#~ msgstr ""
+#~ "Hoe groot was de totale schade aan uw woning en inboedel as gevolg van "
+#~ "deze overstroming?"
+
+#~ msgid "Between €5,500 and €9,999"
+#~ msgstr "Tussen €5.500 en €9.999"
+
+#~ msgid ""
+#~ "Please estimate how often your neighborhood could be flooded. You may "
+#~ "enter any number (not only the numbers on the scale). "
+#~ msgstr ""
+#~ "Hoe vaak denkt u dat een overstroming gemiddeld kan voorkomen in uw "
+#~ "buurt? U kunt een getal van de schaal of elk ander getal invullen."
+
+#~ msgid ""
+#~ "People in my direct environment would approve an investment in damage "
+#~ "reducing measures."
+#~ msgstr ""
+#~ "Ik denk dat mensen in mijn directe omgeving een investering in "
+#~ "schadebeperkende maatregelen (door mij) zouden goedkeuren."
+
+#~ msgid ""
+#~ "People in my direct environment think that I should invest in damage "
+#~ "reducing measures."
+#~ msgstr ""
+#~ "Ik denk dat mensen in mijn directe omgeving vinden dat ik zou moeten "
+#~ "investeren in schadebeperkende maatregelen."
+
+#~ msgid ""
+#~ "I am morally obligated to take measures to reduce flood risk to my home."
+#~ msgstr ""
+#~ "Ik voel een morele verplichting om mijn woning te beschermen tegen "
+#~ "overstromingsschade."
+
+#~ msgid ""
+#~ "The probability of flooding at my current residence is too low to be "
+#~ "concerned about."
+#~ msgstr ""
+#~ "De kans op een overstroming op mijn adres is te klein om me druk over te "
+#~ "maken."
+
+#~ msgid ""
+#~ "The information presented in the scenario about previous participants is "
+#~ "trustworthy."
+#~ msgstr ""
+#~ "De gepresenteerde informatie in het scenario over beslissingen van vorige "
+#~ "deelnemers is betrouwbaar."
+
+#~ msgid "How good are you at working with fractions?"
+#~ msgstr "Hoe goed bent u in werken met breuken (wiskunde)?"
+
+#~ msgid ""
+#~ "How good are you at figuring out how much a shirt will cost if it is 25% "
+#~ "off?"
+#~ msgstr ""
+#~ "Hoe goed bent u in uitvinden hoeveel een shirt zou kosten als het met 25% "
+#~ "is afgeprijsd?"
+
+#~ msgid "How often do you find numerical information to be useful?"
+#~ msgstr "Hoe vaak vindt u numerieke informatie nuttig?"
+
+#~ msgid "I would not let my cousin(s) use my car (if I have one)."
+#~ msgstr ""
+#~ "Ik zou mijn auto nooit uitlenen aan mijn neef/nicht (als ik een auto had)."
+
+#~ msgid "It is enjoyable to meet and talk with my neighbors regularly."
+#~ msgstr "Ik vind het leuk om mijn buren geregeld te ontmoeten en te spreken."
+
+#~ msgid "I would not discuss newly acquired knowledge with my parents."
+#~ msgstr ""
+#~ "Ik zou nooit iets wat ik juist geleerd heb, bespreken met mijn ouders."
+
+#~ msgid "It is not appropriate for a colleague to ask me for money."
+#~ msgstr "Het is niet passend dat een collega me vraagt om geld te lenen."
+
+#~ msgid "I would not let my neighbors borrow things from me or my family."
+#~ msgstr ""
+#~ "Ik zou geen spullen (van mezelf of mijn gezin) uitlenen aan de buren ."
+
+#~ msgid ""
+#~ "When deciding what kind of education to have, I would pay no attention to "
+#~ "my uncles’ advice."
+#~ msgstr ""
+#~ "Wanneer het gaat om school/studiekeuze, zou ik het advies van mijn oom "
+#~ "negeren."
+
+#~ msgid "I would not share ideas with my parents."
+#~ msgstr "Ik zou nooit ideeën delen met mijn ouders."
+
+#~ msgid ""
+#~ "I would help, within my means, if a relative told me that he/she is in "
+#~ "financial difficulty."
+#~ msgstr ""
+#~ "Ik zou (voor zover mogelijk) helpen, als een familielid vertelde in "
+#~ "financiele moeilijkheden te zitten."
+
+#~ msgid "I am not interested in knowing what my neighbors are really like."
+#~ msgstr "Ik zou niet willen weten hoe de buren echt zijn."
+
+#~ msgid "Neighbors should greet each other when we come across each other."
+#~ msgstr "Buren zouden elkaar moeten groeten wanneer ze elkaar tegenkomen."
+
+#~ msgid ""
+#~ "A person ought to help a colleague at work who has financial problems."
+#~ msgstr ""
+#~ "Men moet een collega helpen wanneer hij/zij financiele problemen heeft."
+
+#~ msgid "Admitting that your tastes are different from those of your friends."
+#~ msgstr "Toegeven dat uw smaak verschilt van die van uw vrienden."
+
+#~ msgid ""
+#~ "Arguing with a friend about an issue on which s/he has a very different "
+#~ "opinion."
+#~ msgstr ""
+#~ "Discussieren met een vriend over een onderwerp waarover jullie van mening "
+#~ "verschillen."
+
+#~ msgid ""
+#~ "Defending an unpopular issue that you believe in at a social occasion."
+#~ msgstr "Een impopulair probleem aankaarten op een feestje."
+
+#~ msgid "Prediction"
+#~ msgstr "Voorspelling"
+
+#~ msgid "VR"
+#~ msgstr "VR"
+
+#~ msgid ""
+#~ "You just made a decision about investing in damage reducing measures for "
+#~ "yourself. Now, we would like to know what you think other respondents "
+#~ "will decide in the same scenario.</p> <hr class=\"my-4\"> <p class=\"lead"
+#~ "\"><b>Please give us your best estimate. When your estimate turns out to "
+#~ "be correct, you are eligible for an extra bonus(&euro;20).</b></p>"
+#~ msgstr ""
+#~ "Nu u uw eigen beslissing heeft genomen, willen we graag weten wat u denkt "
+#~ "dat andere deelnemers zullen kiezen in hetzelfde scenario. </p><hr class="
+#~ "\"my-4\"><p class=\"lead\"><b>Probeer zo nauwkeurig mogelijk te "
+#~ "voorspellen. Wanneer uw inschatting juist blijkt te zijn, komt u in "
+#~ "aanmerking voor een extra bonus (&euro;20).</b></p>"
+
+#~ msgid "Close this window to start the prediction"
+#~ msgstr "Sluit dit venster om te starten met de voorspelling"
+
+#~ msgid ""
+#~ "You indicated that you have taken the following structural measures. <br> "
+#~ "For each measure taken to protect your home against flood damage, please "
+#~ "indicate the individual or organization that initiated the protective "
+#~ "measure."
+#~ msgstr ""
+#~ "U heeft aangegeven de volgende structurele maatregelen te hebben genomen. "
+#~ "<br>Kunt u voor elk van deze maatregelen aangeven wie (individu of "
+#~ "organisatie) de opdracht heeft gegeven tot installatie?"
+
+#~ msgid "Myself or a family member"
+#~ msgstr "Ikzelf of een gezinslid"
+
+#~ msgid "Previous owner"
+#~ msgstr "Vorige eigenaar"
+
+#~ msgid "Homeowners association"
+#~ msgstr "Vereniging van Eigenaren (VvE)"
+
+#~ msgid "Other"
+#~ msgstr "Anders"
+
+#~ msgid "Not applicable"
+#~ msgstr "Niet van toepassing"
+
+#~ msgid "never"
+#~ msgstr "nooit"
+
+#~ msgid "not good at all"
+#~ msgstr "helemaal niet goed"
+
+#~ msgid "very often"
+#~ msgstr "erg vaak"
+
+#~ msgid "extremely good"
+#~ msgstr "heel erg goed"
+
+#~ msgid ""
+#~ "Please indicate the likelihood of you engaging in each of the following "
+#~ "activities."
+#~ msgstr "Hoe groot acht u de kans dat u zult..."
+
+#~ msgid "Very unlikely"
+#~ msgstr "Heel erg onwaarschijnlijk"
+
+#~ msgid "Somewhat unlikely"
+#~ msgstr "Vrij onwaarschijnlijk"
+
+#~ msgid "Neither likely nor unlikely"
+#~ msgstr "Niet waarschijnlijk niet onwaarschijnlijk"
+
+#~ msgid "Somewhat likely"
+#~ msgstr "Vrij waarschijnlijk"
+
+#~ msgid "Very likely"
+#~ msgstr "Heel erg waarschijnlijk"
+
+#~ msgid "don't know"
+#~ msgstr "weet ik niet"
+
+#~ msgid "Partner"
+#~ msgstr "Partner"
+
+#~ msgid "Close friend"
+#~ msgstr "Goede vriend(in)"
+
+#~ msgid "Family member"
+#~ msgstr "Familielid"
+
+#~ msgid "Neighbor"
+#~ msgstr "Buurman/vrouw"
+
+#~ msgid "Acquaintance"
+#~ msgstr "Kennis"
+
+#~ msgid "Questionnaire"
+#~ msgstr "Vragenlijst"
+
+#~ msgid "The scale below shows different flood probabilities."
+#~ msgstr "De schaal hieronder geeft verschillende overstromingskansen weer."
+
+#~ msgid "On average, one flood every"
+#~ msgstr "Gemiddeld één overstroming per"
+
+#~ msgid "or if you think that a flood will never happen:"
+#~ msgstr "of, als u denkt dat een overstroming nooit zal plaatsvinden:"
+
+#~ msgid "It is time for some research in VR"
+#~ msgstr "Het is tijd voor het VR onderzoek"
+
+#~ msgid ""
+#~ "Please let the experimenter know that you are ready for the virtual "
+#~ "reality experience."
+#~ msgstr ""
+#~ "U kunt nu de onderzoeker laten weten dat u klaar bent voor het virtual "
+#~ "reality gedeelte."
+
+#~ msgid ""
+#~ "We invite you to participate in a survey about measures homeowners can "
+#~ "take to reduce damages from flooding. <br> You do not need any experience "
+#~ "with flooding or damage reducing measures to participate in this research."
+#~ msgstr ""
+#~ "We nodigen u uit om deel te nemen aan een vragenlijst over "
+#~ "schadebeperkende maatregelen tegen overstromingen. <br> U hoeft geen "
+#~ "ervaring te hebben met overstromingen of schadebeperkende maatregelen om "
+#~ "mee te kunnen doen aan dit onderzoek."
+
+#~ msgid ""
+#~ "Note that throughout the survey, there is no button to go back to a "
+#~ "previous page."
+#~ msgstr ""
+#~ "Er is in deze vragenlijst geen mogelijkheid om terug te gaan naar de "
+#~ "vorige pagina."
+
+#~ msgid ""
+#~ "Prior to taking your decision about investing in damage reducing "
+#~ "measures, we would like to know what you think other respondents will "
+#~ "decide in the same scenario.</p> <hr class=\"my-4\"> <p class=\"lead"
+#~ "\">Please give us your best estimate. When your estimate turns out to be "
+#~ "correct, you are eligible for an extra bonus (&euro;20).</p>"
+#~ msgstr ""
+#~ "Nu u uw eigen beslissing heeft genomen, willen we graag weten wat u denkt "
+#~ "dat andere deelnemers zullen kiezen in hetzelfde scenario. </p><hr class="
+#~ "\"my-4\"><p class=\"lead\">Probeer zo nauwkeurig mogelijk te voorspellen. "
+#~ "Wanneer uw inschatting juist blijkt te zijn, komt u in aanmerking voor "
+#~ "een extra bonus (&euro;20).</p>"
+
+#~ msgid "Informed consent"
+#~ msgstr "Toestemming"
+
+#~ msgid "In this research we will collect some data."
+#~ msgstr "Voor dit onderzoek wordt data verzameld."
+
+#~ msgid "Please find more information "
+#~ msgstr "U kunt "
+
+#~ msgid "here"
+#~ msgstr "hier"
+
+#~ msgid "about the procedures."
+#~ msgstr "meer informatie vinden over de procedures."
+
+#~ msgid "More information about this research"
+#~ msgstr "Meer informatie over dit onderzoek"
+
+#~ msgid ""
+#~ "The goal of this research is to better understand flood damage reduction "
+#~ "investments in Europe."
+#~ msgstr ""
+#~ "Het doel van dit onderzoek is om meer inzicht te krijgen in investeringen "
+#~ "in maatregelen om de schade van overstromingen te beperken."
+
+#~ msgid "Participation is voluntary."
+#~ msgstr "Deelname is vrijwillig."
+
+#~ msgid "You can withdraw from the research at any moment."
+#~ msgstr "U kunt op ieder moment met het onderzoek stoppen."
+
+#~ msgid ""
+#~ "Data will be stored anonymously at a local computer of Vrije Universiteit "
+#~ "Amsterdam."
+#~ msgstr ""
+#~ "Data wordt anoniem opgeslagen op een lokale computer van de Vrije "
+#~ "Universiteit Amsterdam."
+
+#~ msgid ""
+#~ "Data will be analyzed by VU researchers and will not be used for "
+#~ "commercial purposes."
+#~ msgstr ""
+#~ "Data wordt geanalyseerd door VU onderzoekers en wordt niet gebruikt voor "
+#~ "commerciële activiteiten."
+
+#~ msgid "If you finish the final survey, you are eligible for a large reward."
+#~ msgstr ""
+#~ "Als u de vragenlijst heeft afgerond, komt u in aanmerking voor een grote "
+#~ "prijs."
+
+#~ msgid ""
+#~ "The computer will randomly select one participant for the large reward."
+#~ msgstr ""
+#~ "De computer zal willekeurig één deelnemer selecteren voor de grote prijs."
+
+#~ msgid ""
+#~ "This will take place after all participants have finished the survey, in "
+#~ "October 2019."
+#~ msgstr ""
+#~ "Dit zal gebeuren zodra alle deelnemers de vragenlijst hebben afgerond, in "
+#~ "oktober 2019."
+
+#~ msgid ""
+#~ "If you are selected for large payment, Panelinzicht will contact you via "
+#~ "email to arrange the payment."
+#~ msgstr ""
+#~ "Mocht u geselecteerd zijn voor de grote prijs, dan zal Panelinzicht "
+#~ "contact opnemen via email om de betaling te regelen."
+
+#~ msgid ""
+#~ "The size of the reward (up to &euro;650) depends on your answers in this "
+#~ "survey."
+#~ msgstr ""
+#~ "De grootte van uw prijs (maximaal &euro;650) hangt af van uw antwoorden "
+#~ "in de vragenlijst."
+
+#~ msgid ""
+#~ "In case you have questions about the research, feel free to send an email "
+#~ "to:"
+#~ msgstr ""
+#~ "Als u nog vragen heeft over het onderzoek, stuur gerust een email naar:"
+
+#~ msgid ""
+#~ "<a href=\"mailto:info.ivm@vu.nl?subject=Question about IVM survey\">info."
+#~ "ivm@vu.nl</a>"
+#~ msgstr ""
+#~ "<a href=\"mailto:info.ivm@vu.nl?subject=Vraag over IVM vragenlijst\">info."
+#~ "ivm@vu.nl</a>"
+
+#~ msgid ""
+#~ "I have read the information and agree with participation in this research"
+#~ msgstr ""
+#~ "Ik heb de informatie gelezen en ga akkoord met deelname aan dit onderzoek"
+
+#~ msgid ""
+#~ "You finished your prediction. <br> You can make <u><strong>your own</"
+#~ "strong></u> investment decision in the next decision screen."
+#~ msgstr ""
+#~ "U heeft uw voorspelling bevestigd. <br> U kunt <u> <strong> uw eigen </u> "
+#~ "</strong> investeringskeuze maken op de volgende pagina."
+
+#~ msgid "Close this window to start your decision"
+#~ msgstr "Sluit dit venster om met uw beslissing te beginnen"
+
+#~ msgid "30%% of homeowners chose this option previously."
+#~ msgstr "30%% van de huiseigenaren koos deze optie eerder."
+
+#~ msgid "18%% of homeowners chose this option previously."
+#~ msgstr "18%% van de huiseigenaren koos deze optie eerder."
+
+#~ msgid "20%% of homeowners chose this option previously."
+#~ msgstr "20%% van de huiseigenaren koos deze optie eerder."
+
+#~ msgid "12%% of homeowners chose this option previously."
+#~ msgstr "12%% van de huiseigenaren koos deze optie eerder."
+
+#~ msgid "Previously, 70%% of homeowners opted for damage reducing measures."
+#~ msgstr ""
+#~ "70%% van de huiseigenaren koos eerder voor schadebeperkende maatregelen."
+
+#, fuzzy
+#~| msgid "Please find more information "
+#~ msgid "More information"
+#~ msgstr "U kunt "
+
+#~ msgid "Thank you"
+#~ msgstr "Hartelijk dank"
+
+#~ msgid ""
+#~ "Thank you for your interest in this research. <br><br> Unfortunately, we "
+#~ "already received enough responses.<br><br> See you next time."
+#~ msgstr ""
+#~ "Hartelijk dank voor uw interesse in dit onderzoek. <br><br>Helaas hebben "
+#~ "we al genoeg deelnemers. <br><br>Graag tot een volgende keer."
+
+#~ msgid ""
+#~ "Thank you for your interest in this research. <br><br> Unfortunately, you "
+#~ "are not part of the target group of this research.<br><br> See you next "
+#~ "time."
+#~ msgstr ""
+#~ "Hartelijk dank voor uw interesse in dit onderzoek. <br><br>Helaas, u valt "
+#~ "niet in de doelgroep die we zoeken voor dit onderzoek. <br><br>Graag tot "
+#~ "een volgende keer."
+
+#~ msgid ""
+#~ "First two questions to confirm you are in the target group for this "
+#~ "survey."
+#~ msgstr ""
+#~ "Allereerst twee vragen om te bevestigen dat u in de doelgroep valt van "
+#~ "dit onderzoek."
+
+#~ msgid "Do you own the house or apartment you live in?"
+#~ msgstr "Bent u de eigenaar van het huis of appartement waarin u woont?"
+
+#~ msgid "Yes (homeowner)"
+#~ msgstr "Ja (huiseigenaar)"
+
+#~ msgid "No (tenant)"
+#~ msgstr "Nee (huurder)"
+
+#~ msgid "What was the flood probability in the test scenario?"
+#~ msgstr "Wat was de kans op een overstroming in het oefenscenario?"
+
+#~ msgid "1% percent per year"
+#~ msgstr "1% procent per jaar"
+
+#~ msgid "2% percent per year"
+#~ msgstr "2% procent per jaar"
+
+#~ msgid "5% percent per year"
+#~ msgstr "5% procent per jaar"
+
+#~ msgid "10% percent per year"
+#~ msgstr "10% procent per jaar"
+
+#~ msgid "21% percent per year"
+#~ msgstr "21% procent per jaar"
+
+#~ msgid "22% percent per year"
+#~ msgstr "22% procent per jaar"
+
+#~ msgid "It is the number of homes flooded per year, see instructions."
+#~ msgstr "Het is het aantal huizen dat elk jaar overstroomt, zie instructies."
+
+#~ msgid ""
+#~ "What happens if your home gets flooded and you did not invest in damage "
+#~ "reducing measures?"
+#~ msgstr ""
+#~ "Wat gebeurt er als uw woning overstroomt en u heeft niet geïnvesteerd in "
+#~ "schadebeperkende maatregelen?"
+
+#~ msgid "I need to pay the full damage: "
+#~ msgstr "Ik zal de volledige schade moeten betalen: "
+
+#~ msgid "I need to pay a small fee"
+#~ msgstr "Ik moet een kleine boete betalen"
+
+#~ msgid "The government will compensate my damage"
+#~ msgstr "De overheid zal mij tegemoetkomen in de schade"
+
+#~ msgid "Read the instructions very carefully."
+#~ msgstr "Lees de instructies nog eens nauwkeurig door."
+
+#~ msgid ""
+#~ "To ensure that you understand the rules of the game, we will ask a couple "
+#~ "of questions. As soon as you have answered all questions correctly, you "
+#~ "can start with the final scenario."
+#~ msgstr ""
+#~ "Om er zeker van te zijn dat u de spelregels goed begrijpt, zullen we nu "
+#~ "een aantal vragen stellen. Zodra u deze vragen correct heeft beantwoord, "
+#~ "kunt u starten met het definitieve scenario."
+
+#~ msgid ""
+#~ "The instructions will be always available during the scenario (top right "
+#~ "corner of the screen: 'open the instructions')."
+#~ msgstr ""
+#~ "De instructies zijn altijd beschikbaar tijdens het scenario (rechtsboven "
+#~ "onder de knop 'open de instructies')"
+
+#~ msgid ""
+#~ "Your savings balance depends on your decisions and whether a flood occurs "
+#~ "in the game."
+#~ msgstr ""
+#~ "De balans van uw spaarrekening hangt af van uw keuzes en of een "
+#~ "overstroming plaatsvindt in het floodgame_online."
+
+#~ msgid ""
+#~ "You can use the savings account to pay for investments. In case of a "
+#~ "flood, the costs to recover damage will be substracted from your savings "
+#~ "account."
+#~ msgstr ""
+#~ "U kunt de spaarrekening gebruiken om investeringen te doen. In het geval "
+#~ "van een overstroming, zullen de kosten van het herstellen van de schade "
+#~ "uit uw spaarrekening worden betaald."
+
+#~ msgid "Please select at least one option"
+#~ msgstr "Selecteer minstens één optie"
+
+#~ msgid ""
+#~ "I give informed consent for anonymous collection, storage and use of my "
+#~ "data to answer the research question in this research. </p> <p> I "
+#~ "understand that participation is voluntary and that I can withdraw from "
+#~ "the research at any moment."
+#~ msgstr ""
+#~ "Ik geef toestemming voor het anoniem verzamelen, bewaren en gebruiken van "
+#~ "mijn gegevens voor de beantwoording van de onderzoeksvraag in dit "
+#~ "onderzoek. </p><p> Ik weet dat meedoen vrijwillig is en dat ik op elk "
+#~ "moment kan stoppen tijdens het onderzoek."
+
+#~ msgid "in similar research, 30%% of homeowners chose this"
+#~ msgstr "30%% van de huiseigenaren koos deze optie eerder"
+
+#~ msgid "in similar research, 18%% of homeowners chose this"
+#~ msgstr "18%% van de huiseigenaren koos deze optie eerder"
+
+#~ msgid "in similar research, 20%% of homeowners chose this"
+#~ msgstr "20%% van de huiseigenaren koos deze optie eerder"
+
+#~ msgid "in similar research, 12%% of homeowners chose this"
+#~ msgstr "12%% van de huiseigenaren koos deze optie eerder"
+
+#~ msgid "NA"
+#~ msgstr "niet van toepassing"
+
+#~ msgid "Very high (whole floor flooded)"
+#~ msgstr "Heel hoog (meer dan 2 meter)"
+
+#~ msgid "Scenario"
+#~ msgstr "Scenario"
+
+#~ msgid ""
+#~ "Prior to taking your own decision, we would like to know what decisions "
+#~ "you expect of other respondents. This prediction is a separate decision "
+#~ "from your own investment decision.</p> <hr class=\"my-4\"> <p>Please give "
+#~ "us your best estimate. When your estimate turns out to be correct at the "
+#~ "percent level, you are eligible for an extra bonus."
+#~ msgstr ""
+#~ "Voordat u uw eigen beslissing neemt, willen we graag weten wat u denkt "
+#~ "dat andere deelnemers zullen kiezen. Deze inschatting is een andere "
+#~ "beslissing dan uw eigen investeringsbeslissing. </p><hr class="
+#~ "\"my-4\"><p>Probeer zo nauwkeurig mogelijk te voorspellen. Wanneer uw "
+#~ "inschatting tot op de procent juist blijkt te zijn, komt u in aanmerking "
+#~ "voor een extra bonus."
+
+#~ msgid "I am his/her ..."
+#~ msgstr "Ik ben zijn/haar ..."
+
+#~ msgid ""
+#~ "Does your experience with evacuation make it easier to imagine a flood in "
+#~ "the nearby future?"
+#~ msgstr ""
+#~ "Denkt u dat uw ervaring met evacuatie het makkelijker maakt om voor te "
+#~ "stellen dat een overstroming in de nabije toekomst plaatsvindt?"
+
+#~ msgid "Yes, I can now imagine that a flood is very likely"
+#~ msgstr ""
+#~ "Ja, ik kan me nu voorstellen dat een overstroming heel waarschijnlijk is"
+
+#~ msgid "No, I cannot imagine that a flood is very likely"
+#~ msgstr ""
+#~ "Nee, ik kan me niet voorstellen dat een overstroming heel waarschijnlijk "
+#~ "is"
+
+#~ msgid ""
+#~ "I do not think that this experience has changed my thoughts on the "
+#~ "likelihood of a flood"
+#~ msgstr ""
+#~ "Ik denk niet dat deze ervaring mijn beeld van de waarschijnlijkheid van "
+#~ "een overstroming heeft veranderd"
+
+#~ msgid ""
+#~ "If you’re running a race and you pass the person in second place, what "
+#~ "place are you in?"
+#~ msgstr ""
+#~ "Als u meedoet aan een hardloopwedstrijd en u haalt de tweede loper in, op "
+#~ "welke plek bevindt u zich dan?"
+
+#~ msgid "place"
+#~ msgstr "plek"
+
+#~ msgid "A farmer had 15 sheep and all but 8 died. How many are left?"
+#~ msgstr ""
+#~ "Een boer heeft 15 koeien. Op 8 na zijn ze allemaal gestorven. Hoeveel "
+#~ "heeft hij er over?"
+
+#~ msgid ""
+#~ "Emily’s father has three daughters. The first two are named April and "
+#~ "May. What is the third daughter’s name?"
+#~ msgstr ""
+#~ "De vader van Karel heeft drie zonen. De oudste twee heten Kwik en Kwek. "
+#~ "Hoe heet de derde zoon?"
+
+#~ msgid ""
+#~ "How many cubic meters of dirt are there in a hole that is 3m deep x 3m "
+#~ "wide x 3m long?"
+#~ msgstr ""
+#~ "Hoeveel kubieke meter aarde bevindt zich in een gat van 3m diep x 3m "
+#~ "breed x 3m lang?"
+
+#~ msgid "m3"
+#~ msgstr "m3"
+
+#~ msgid ""
+#~ "What is according to you the probability of a flood in your neighborhood?"
+#~ msgstr ""
+#~ "Hoe groot denkt u dat de kans op een overstroming is in het gebied waar u "
+#~ "woont?"
+
+#~ msgid "Easy"
+#~ msgstr "Makkelijk"
+
+#~ msgid "Not easy/not difficult"
+#~ msgstr "Niet makkelijk/niet moeilijk"
+
+#~ msgid "Difficult"
+#~ msgstr "Moeilijk"
+
+#~ msgid "Floods in the past "
+#~ msgstr "Overstromingen in de afgelopen "
+
+#~ msgid " years"
+#~ msgstr " jaar"
+
+#~ msgid "Expected damage"
+#~ msgstr "Verwachte schade"
+
+#~ msgid "Scenario takes"
+#~ msgstr "Scenario duurt"
+
+#~ msgid "Parent"
+#~ msgstr "Ouder"
+
+#~ msgid "Uncle/Aunt"
+#~ msgstr "Oom/Tante"
+
+#~ msgid "Son/Daughter"
+#~ msgstr "Zoon/Dochter"
+
+#~ msgid "Cousin"
+#~ msgstr "Neef/Nicht"
+
+#~ msgid "flood once every"
+#~ msgstr "overstroming eens per"
+
+#~ msgid "Please indicate in what kind of property you live."
+#~ msgstr "Hoe zou u uw huis omschrijven?"
+
+#~ msgid ""
+#~ "How much damage do you expect to your house and contents in case you "
+#~ "would be flooded?"
+#~ msgstr ""
+#~ "Hoeveel schade aan uw huis en inboedel denkt u dat een overstroming u zou "
+#~ "kosten?"
+
+#~ msgid "How large is your ground floor approximately?"
+#~ msgstr ""
+#~ "Hoeveel vierkante meter van uw woning bevindt zich ongeveer op de begane "
+#~ "grond?"
+
+#~ msgid "Unlikely"
+#~ msgstr "Onwaarschijnlijk"
+
+#~ msgid "Likely"
+#~ msgstr "Waarschijnlijk"
+
+#, fuzzy
+#~| msgid "Informed consent"
+#~ msgid "Some constant"
+#~ msgstr "Toestemming"
+
+#, fuzzy
+#~| msgid "What is your age?"
+#~ msgid "What is your mood today?"
+#~ msgstr "Hoe oud bent u?"
+
+#~ msgid "Between"
+#~ msgstr "Tussen"
+
+#~ msgid " and"
+#~ msgstr " en"
+
+#~ msgid "onderzoek"
+#~ msgstr "research"
+
+#~ msgid "or more"
+#~ msgstr "of meer"

@@ -1,0 +1,57 @@
+{% extends "floodgame_vr/Page.html" %}
+{% load staticfiles otree_tags %}
+{% load i18n %}
+
+{% block title %} Vragenlijst
+{% endblock %}
+
+{% block content %}
+
+{% include 'snippets/Voortgangsbalk.html' %}
+
+        {% if player.round_number == 2 %} <br>
+
+            {% trans "Please indicate the extent to which you agree or disagree with the following statements." %}
+        <br> <br>
+
+               {% for field in form %}
+        <table class="table table-sm" width=100%>
+            <tr>
+                {% if  forloop.counter  == 1  %}<th> </th>
+                    <th>{% trans "Strongly disagree" %}</th>
+                    <th>{% trans "Disagree" %}</th>
+                    <th>{% trans "Neither agree nor disagree" %}</th>
+                    <th>{% trans "Agree" %}</th>
+                    <th>{% trans "Strongly agree" %}</th>
+                {% endif %}
+            </tr>
+            <tr>
+                <td width="50%">
+                    {{ field.label }}
+                    {{ field.errors }}
+                </td>
+                <td width="9%"><input type="radio" name="{{ field.html_name}}" value="1"></td>
+                <td width="8%"><input type="radio" name="{{ field.html_name}}" value="2"></td>
+                <td width="9%"><input required type="radio" name="{{ field.html_name}}" value="3"></td>
+                <td width="8%"><input type="radio" name="{{ field.html_name}}" value="4"></td>
+                <td width="9%"><input type="radio" name="{{ field.html_name}}" value="5"></td>
+
+            </tr>
+
+        </table>
+               {% endfor %}
+
+        {% else %}
+                <br>
+            {% for field in form %}
+                {% formfield field %}
+            {% endfor %}
+        {%  endif %}
+
+{#    {{form.errors}}#}
+
+
+
+<button name="next_button"  class="btn btn-primary btn-right btn-lg"  > {% trans "Next" %} </button>
+
+{% endblock %}

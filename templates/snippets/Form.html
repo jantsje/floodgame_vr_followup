@@ -1,0 +1,22 @@
+{% extends "floodgame_vr_followup/Page.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    {{ page_title }}
+{% endblock %}
+
+
+{% block content %}
+
+{% include 'snippets/Voortgangsbalk.html' %}
+
+
+{% for field in form %}
+{% formfield field %}
+{% endfor %}
+
+
+<button name="next_button"  class="btn btn-primary btn-right btn-lg" > {% trans "Next" %}</button>
+
+{% endblock %}
+
