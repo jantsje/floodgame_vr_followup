@@ -339,6 +339,14 @@ class Player(BasePlayer):
         label=_("I am confident that the dikes in my country are maintained well."),
         blank=True)
 
+    concern = models.IntegerField(
+        label=_("The probability of flooding at my current residence is too low to be concerned about."),
+        blank=True)
+
+    worry_covid = models.IntegerField(
+        label=_("I am worried about becoming infected by the coronavirus."),
+        blank=True)
+
     self_responsibility = models.IntegerField(
         label=_("It is the responsibility of a property owner to protect their property from flood damage."),
         choices=[(1, _("Strongly disagree")),
