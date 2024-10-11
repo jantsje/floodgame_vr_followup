@@ -74,7 +74,7 @@ class AfterVR(Page):
         if self.round_number == 1:
             return ['flood_prob', 'water_levels', 'expected_damage']
         elif self.round_number == 2:
-            return ['worry', 'trust_dikes', 'concern', 'worry_covid']
+            return ['worry', 'trust_dikes', 'concern']
 
     def is_displayed(self):
         return self.round_number <= Constants.num_start_pages
@@ -88,6 +88,8 @@ class FinalQuestions(Page):
 
     def before_next_page(self):
         self.player.store_follow_up()
+        if self.round_number == 7:
+            self.player.store_complete()
 
     def get_form_fields(self):
         if self.round_number == 4:
@@ -259,7 +261,24 @@ class Thanks(Page):
         return {'page_title': _('Thanks for your participation')}
 
     def is_displayed(self):
-        return self.round_number == Constants.num_rounds
+        return self.player.participant.vars["completed"] and self.session.config['demo']
+
+
+class Complete(Page):
+
+    def dispatch(self, request, *args, **kwargs):
+        from otree.models import Participant
+        participant = Participant.objects.get(code=kwargs.get('participant_code'))
+        if request.method == 'GET':
+            address = 'https://pi.panelinzicht.nl/redirect/index.php/veldwerk/survey/return?p=ok&survey_id=PNI20201040-REC&H68Q8siV6g=1d99b&imid=' + str(participant.label)
+            # complete link here
+            return HttpResponseRedirect(address)
+        return super(Page, self).dispatch(request, *args, **kwargs)
+
+    form_model = 'player'
+
+    def is_displayed(self):
+        return not self.session.config['demo'] and self.player.participant.vars["completed"]
 
 
 page_sequence = [
@@ -275,4 +294,5 @@ page_sequence = [
     Results,
     FinalQuestions,
     Thanks,
+    Complete
 ]

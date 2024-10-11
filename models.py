@@ -65,6 +65,7 @@ class Subsession(BaseSubsession):
                 p.participant.vars["mitigated"] = False
                 p.participant.vars["conversion"] = sconfig.get('real_world_currency_per_point')
                 p.participant.vars["demo"] = False
+                p.participant.vars["completed"] = False
                 p.participant.vars["timespent"] = ''
                 p.participant.vars["belief"] = 999
                 p.participant.vars["insurance_choice"] = False
@@ -408,6 +409,9 @@ class Player(BasePlayer):
     def store_follow_up(self):
         if self.other_text:
             self.participant.vars["other_text"] = self.other_text
+
+    def store_complete(self):
+        self.participant.vars["completed"] = True
 
     def get_questions_method(self):
         questions = [

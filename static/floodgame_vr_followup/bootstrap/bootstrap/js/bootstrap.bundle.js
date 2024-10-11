@@ -2339,7 +2339,7 @@
   }
 
   /**
-   * Return the index of the matching object
+   * Return the index of the matching_intro object
    * @method
    * @memberof Popper.Utils
    * @argument {Array} arr
